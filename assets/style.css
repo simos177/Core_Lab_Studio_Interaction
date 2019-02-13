@@ -1,0 +1,14 @@
+
+body{
+    background-color: blueviolet;
+    font-family: Futura;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.title{
+	color: white;
+	font-style: bold;
+	font-size: 30px;
+}
+
