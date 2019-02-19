@@ -1,0 +1,56 @@
+body{
+	background-image: url("background.svg");
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 100%;
+}
+
+.dot1{
+	height: 10px;
+	width: 10px;
+	border-radius: 50px;
+	background-color: red;
+	position: fixed;
+	top: 300px;
+	left: 380px;
+
+}
+
+.dot2{
+	height: 10px;
+	width: 10px;
+	border-radius: 50px;
+	background-color: red;
+	position: fixed;
+	top: 300px;
+	left: 280px;
+}
+
+.dot3{
+	height: 10px;
+	width: 10px;
+	border-radius: 50px;
+	background-color: red;
+	position: fixed;
+	top: 305px;
+	left: 368px;
+}
+
+.dot4{
+	height: 10px;
+	width: 10px;
+	border-radius: 50px;
+	background-color: red;
+	position: fixed;
+	top: 350px;
+	left: 315px;
+}
+.dot5{
+	height: 10px;
+	width: 10px;
+	border-radius: 50px;
+	background-color: red;
+	position: fixed;
+	top: 685px;
+	right: 162px;
+}

@@ -1,0 +1,34 @@
+/* boilerplate */
+
+body{
+	background: #4649df;
+    font-size:12px; 
+    font-family: Futura, sans-serif;
+    color: #ffffff;
+}
+
+.header1{
+	font-size:20px; 
+    font-family: Futura, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.header2{
+	font-size:14px; 
+    font-family: Futura, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.text1,.text2,.text3,.text4,.text5{
+    font-size:12px; 
+    font-family: Futura, sans-serif;
+    color: #000000; 
+    background-color:#ffff;
+    height: 300px;
+    width: 400px;
+    align-content:center;
+    padding-top: 50px;
+}

@@ -1,0 +1,67 @@
+
+
+html{
+			background-color: Magenta;
+		}
+
+		.text1, .text2, .text3{
+			color: white;
+			font-size: 30px;
+			margin-left: 25%;
+			margin-right: 25%;
+		}
+
+		.text1{
+			font-family: futura;
+			display: block;
+		}
+
+		.text2{
+			font-family: Utopia SD;
+			display: none;
+		}
+
+		.text3{
+			font-family: Avenir;
+			display: none;
+		}
+
+
+
+
+
+		@media(max-width: 1000px){
+			html{
+				background-color: MediumPurple;
+			}
+
+			.text2{
+			display: block;
+			
+			}
+
+			.text3{
+			display: none;
+			
+			}
+
+			.text1{
+			display: none;
+			
+			}
+
+
+
+
+
+		}
+
+		@media(max-width: 800px){
+			html{
+				background-color: DarkViolet;
+			}
+		
+
+		}
+
+
