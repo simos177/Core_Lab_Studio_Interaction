@@ -3,7 +3,6 @@ var myString = "hello this is a string";
 var myNumber = 20;
 var myBoolean = true;
 
-
 var myDiv = document.getElementById("wrapper")
 
 
@@ -50,6 +49,10 @@ var anotherFunction = function(){
 	myDiv.style.fontSize = myNumber + "px";
 
 
+}
+
+var classFunction = function(){
+	console.log
 }
 
 
