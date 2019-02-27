@@ -1,21 +1,31 @@
 
-var myString = "hello this is a string";
-var myNumber = 3;
-var myBoolean = true;
 
+function toggle_div_fun(id) {
 
-console.log(myNumber);
+       var divelement = document.getElementById(id);
 
-var myDiv = document.getElementById("wrapper")
+       if(divelement.style.display == 'none')
+          divelement.style.display = 'block';
+       else
+          divelement.style.display = 'none';
+    }
 
-console.log(myDiv)
+function toggle_div_fun2(id) {
 
-var myFunction = function(){
+       var divelement = document.getElementById(id);
 
-	myNumber= myNumber + 1;
-	console.log(myNumber)
+       if(divelement.style.display == 'none')
+          divelement.style.display = 'block';
+       else
+          divelement.style.display = 'none';
+    }
 
-}
+function toggle_div_fun3(id) {
 
+       var divelement = document.getElementById(id);
 
-myDiv.onclick = myFunction;
+       if(divelement.style.display == 'none')
+          divelement.style.display = 'block';
+       else
+          divelement.style.display = 'none';
+    }
