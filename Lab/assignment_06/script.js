@@ -34,3 +34,55 @@ var blue = 0;
 
     console.log("no")
   }
+
+
+/*******************/
+
+var function = function(){
+  console.log("this is a string")
+}
+
+
+/*******************/
+
+
+var myList = document.getElementById("myList");
+var mySecondElement = document.getElementById("mySecondButton");
+var addingAListElement = function(){
+
+  console.log("test")
+
+  var mynewElement = document.createElement("li")
+  mynewElement.className = "important";
+
+  // x
+  myList.appendChild(mynewElement)
+
+  mySecondButton.onclick = function(){addingAListElement}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
