@@ -1,0 +1,20 @@
+*{
+	font-size: 30px;
+}
+
+
+li{
+	font-family: arial;
+	font-size: 20px;
+}
+
+.myaddedListElement{
+	font-size: 40px;
+	color: blue;
+
+}
+
+#imageButton{
+	display: inline-block;
+	
+}

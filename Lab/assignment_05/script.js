@@ -1,31 +1,56 @@
 
 
-function toggle_div_fun(id) {
+var imageList = ["assets/img/1.jpg", "assets/img/og.jpg", "assets/img/2.jpg", "assets/img/4.jpg"];
+var counter = 0;
+var resetCounter = imageList.length;
 
-       var divelement = document.getElementById(id);
+function imageChange() {
 
-       if(divelement.style.display == 'none')
-          divelement.style.display = 'block';
-       else
-          divelement.style.display = 'none';
-    }
+var url = imageList[counter];
 
-function toggle_div_fun2(id) {
+document.getElementById("image").src = url;
 
-       var divelement = document.getElementById(id);
+counter++;
 
-       if(divelement.style.display == 'none')
-          divelement.style.display = 'block';
-       else
-          divelement.style.display = 'none';
-    }
+console.log(url);
 
-function toggle_div_fun3(id) {
+if(counter == resetCounter){
+  
+  counter = 0;
+}
 
-       var divelement = document.getElementById(id);
 
-       if(divelement.style.display == 'none')
-          divelement.style.display = 'block';
-       else
-          divelement.style.display = 'none';
-    }
+}
+
+
+
+
+// function toggle_div_fun(id) {
+
+//        var divelement = document.getElementById(id);
+
+//        if(divelement.style.display == 'none')
+//           divelement.style.display = 'block';
+//        else
+//           divelement.style.display = 'none';
+//     }
+
+// function toggle_div_fun2(id) {
+
+//        var divelement = document.getElementById(id);
+
+//        if(divelement.style.display == 'none')
+//           divelement.style.display = 'block';
+//        else
+//           divelement.style.display = 'none';
+//     }
+
+// function toggle_div_fun3(id) {
+
+//        var divelement = document.getElementById(id);
+
+//        if(divelement.style.display == 'none')
+//           divelement.style.display = 'block';
+//        else
+//           divelement.style.display = 'none';
+//     }

@@ -1,88 +1,29 @@
-var idName = "myElement";
+function toggle_div_fun(id) {
 
-var myFirstElement = document.getElementById(idName);
+       var divelement = document.getElementById(id);
 
-//myFirstElement.classList.add("newClass")
-//myFirstElement.classList.remove("newClass")
-myFirstElement.classList.toggle("newClass")
+       if(divelement.style.display == 'none')
+          divelement.style.display = 'block';
+       else
+          divelement.style.display = 'none';
+    }
 
-var mySecondElement = document.getElementById(myList);
+function toggle_div_fun2(id) {
 
-var myNewNumber = 5;
+       var divelement = document.getElementById(id);
 
-    myNewNumber = myNewNumber + 20;
+       if(divelement.style.display == 'none')
+          divelement.style.display = 'block';
+       else
+          divelement.style.display = 'none';
+    }
 
-    mySecondElement.style.letterSpacing = myNewNumber + "px";
+function toggle_div_fun3(id) {
 
+       var divelement = document.getElementById(id);
 
-var red = 255;
-var green = 0;
-var blue = 0;
-
-    mySecondElement.style.backgroundcolor = "rgb(" + red + "," + green + "," + blue + ")"
-
-
-/*********************/
-
-
-  if(true){
-
-      console.log("yes")
-
-
-  }else{
-
-    console.log("no")
-  }
-
-
-/*******************/
-
-var function = function(){
-  console.log("this is a string")
-}
-
-
-/*******************/
-
-
-var myList = document.getElementById("myList");
-var mySecondElement = document.getElementById("mySecondButton");
-var addingAListElement = function(){
-
-  console.log("test")
-
-  var mynewElement = document.createElement("li")
-  mynewElement.className = "important";
-
-  // x
-  myList.appendChild(mynewElement)
-
-  mySecondButton.onclick = function(){addingAListElement}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+       if(divelement.style.display == 'none')
+          divelement.style.display = 'block';
+       else
+          divelement.style.display = 'none';
+    }
