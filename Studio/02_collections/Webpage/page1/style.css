@@ -1,7 +1,7 @@
 
 body {
   margin: 0px;
-  background-image: url("park6.png");
+  background-image: url("img/park6.png");
   background-repeat: no-repeat;
   background-size: 100%;
 
@@ -9,9 +9,8 @@ body {
 
 a:link, a:visited {
   position: fixed;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 4vw;
+  height: 4vw;
   top: 50px;
   left: 50px;
   transform: translate(-50%, -50%);
@@ -21,10 +20,11 @@ a:link, a:visited {
   cursor: pointer;
   border-radius: 100%;
   color: black;
-  font-size: 12px;
+  font-size: 1vw;
   font-family: futura;
   text-decoration: none;
   text-align: center;
+  line-height: 4vw;
   
 
 }
@@ -39,8 +39,9 @@ img {
     margin-left: 25%;
     margin-top: 10%;
 
-
 }
+
+
 
 
 

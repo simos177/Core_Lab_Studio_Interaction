@@ -1,0 +1,229 @@
+
+body {
+  margin: 0px;
+  background-image: url("img/park4.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+/*.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container .btn {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  top: 707px;
+  left: 680px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: yellow;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+ 
+}
+
+.container .btn:hover {
+  background-color: white;
+}*/
+
+a:link, a:visited {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  top: 707px;
+  left: 680px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: yellow;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+a:hover, a:active {
+  background-color: white;
+}
+
+
+#dot-1{
+
+  left: 49%;
+  top: 50vw;
+
+}
+
+#dot-2{
+
+  left: 46%;
+  top: 49vw;
+
+}
+
+#dot-3{
+
+  left: 49%;
+  top: 47vw;
+
+}
+
+#dot-4{
+
+  left: 46%;
+  top: 45vw;
+
+}
+
+#dot-5{
+
+  left: 43%;
+  top: 42vw;
+
+}
+
+#dot-6{
+
+  left: 42%;
+  top: 44vw;
+
+}
+
+#dot-7{
+
+  left: 49%;
+  top: 44vw;
+
+}
+
+#dot-8{
+
+  left: 51%;
+  top: 42vw;
+
+}
+
+#dot-9{
+
+  left: 48%;
+  top: 41vw;
+
+}
+
+#dot-9{
+
+  left: 48%;
+  top: 41vw;
+
+}
+
+#dot-10{
+
+  left: 45%;
+  top: 40vw;
+}
+
+#dot-11{
+
+  left: 44%;
+  top: 36vw;
+
+}
+
+#dot-12{
+
+  left: 47%;
+  top: 37vw;
+
+}
+
+#dot-13{
+
+  left: 47%;
+  top: 35vw;
+
+}
+
+#dot-14{
+
+  left: 45%;
+  top: 34vw;
+
+}
+
+#dot-15{
+
+  left: 48%;
+  top: 33vw;
+
+}
+
+#dot-16{
+
+  left: 43%;
+  top: 33vw;
+
+}
+
+#dot-17{
+
+  left: 44%;
+  top: 30vw;
+
+}
+
+#dot-18{
+
+  left: 46%;
+  top: 28vw;
+
+}
+
+#dot-19{
+
+  left: 47%;
+  top: 30vw;
+
+}
+
+#dot-20{
+
+  left: 51%;
+  top: 29vw;
+
+}
+
+#dot-21{
+
+  left: 50%;
+  top: 31vw;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
