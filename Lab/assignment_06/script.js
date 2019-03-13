@@ -1,29 +1,45 @@
-function toggle_div_fun(id) {
+// /* march 06 script */
 
-       var divelement = document.getElementById(id);
 
-       if(divelement.style.display == 'none')
-          divelement.style.display = 'block';
-       else
-          divelement.style.display = 'none';
-    }
+// /* click button to add image */
 
-function toggle_div_fun2(id) {
+// var myButton = document.getElementById("imageButton")
+// var myImageContainer = document.getElementById("imageContainer")
 
-       var divelement = document.getElementById(id);
+// var addImage = function(){
 
-       if(divelement.style.display == 'none')
-          divelement.style.display = 'block';
-       else
-          divelement.style.display = 'none';
-    }
+// 	var myImage = document.createdElement("img");
+// 	myImage.src = "img/puppy.jpg";
+// 	myImageContainer.appendChild(myImage);
+// }
 
-function toggle_div_fun3(id) {
+// myButton.onclick = addImage
 
-       var divelement = document.getElementById(id);
 
-       if(divelement.style.display == 'none')
-          divelement.style.display = 'block';
-       else
-          divelement.style.display = 'none';
-    }
+// /* appending click */
+// console.log("testing")
+
+// var myList = document.getElementById("wrapper");
+
+// var myFunction = function(){
+
+// 	var myNewElement = document.creatELement("li");
+// 	myNewElement.className = "myaddedListElement";
+// 	myNewElement.innerhtml = "this is a new list item";
+
+// 	myList.appendChild(myNewElement);
+
+// }
+
+// myList.onclick = myFunction;
+
+
+var myButton = document.getElementById("button");
+var myImageContainer = document.getElementById("imageContainer");
+
+var addImage = function(){
+	var myImage = document.createElement('img');
+	myImage.src = "img/puppy.jpg";
+	myImageContainer.appendChild(myImage);
+}
+myButton.onclick = addImage;

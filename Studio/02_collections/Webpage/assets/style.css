@@ -1,0 +1,77 @@
+
+body {
+  margin: 0px;
+  background-image: url("park4.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+/*.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container .btn {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  top: 707px;
+  left: 680px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: yellow;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+ 
+}
+
+.container .btn:hover {
+  background-color: white;
+}*/
+
+a:link, a:visited {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  top: 707px;
+  left: 680px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: yellow;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+a:hover, a:active {
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

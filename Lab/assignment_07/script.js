@@ -1,34 +1,54 @@
-/* march 06 script */
+
+var myArray = ["red", "yellow", "green", "blue", "black", "white","orange", "purple", "pink"];
+var myOtherArray = ["car", "cat", "dog", "bird", "bike"];
 
 
-/* click button to add image */
+// myArray.push("strawberries"); //adding new values to our array
+// console.log(myArray[0]); //getting the first value of our array 
 
-var myButton = document.getElementById("imageButton")
-var myImageContainer = document.getElementById("imageContainer")
+var myContainer1 = document.getElementById("container1");
+var myContainer2 = document.getElementById("container2");
+var theBody = document.body;
+var counter = 0;
 
-var addImage = function(){
+// while loop
 
-	var myImage = document.createdElement("img");
-	myImage.src = "img/puppy.jpg";
-	myImageContainer.appendChild(myImage);
-}
-
-myButton.onclick = addImage
-
-
-/* appending click */
-console.log("testing")
-
-var myList = document.getElementById("wrapper");
+document.getElementById("container1").innerHTML = myArray[counter];
 
 var myFunction = function(){
 
-	var myNewElement = document.creatELement("li");
-	myNewElement.className = "myaddedListElement";
-	myNewElement.innerhtml = "this is a new list item";
+console.log(counter)
 
-	myList.appendChild(myNewElement);
+while(counter < myArray.length){
+	// do something with our array
+
+	counter ++; //is the same as counter = counter + 1;
+
+document.getElementById("container1").innerHTML = myArray[counter];
+}
 
 }
 
-myList.onclick = myFunction;
+document.getElementById("container2").innerHTML = myOtherArray[counter];
+
+var myFunction2 = function(){
+
+console.log(counter)
+
+while(counter < myOtherArray.length){
+	// do something with our array
+
+	counter ++; //is the same as counter = counter + 1;
+
+document.getElementById("container2").innerHTML = myOtherArray[counter];
+}
+
+}
+
+
+
+
+
+
+
+// theBody.onclick = myFunction;

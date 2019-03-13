@@ -1,6 +1,17 @@
 
 
-var imageList = ["assets/img/1.jpg", "assets/img/og.jpg", "assets/img/2.jpg", "assets/img/4.jpg"];
+var imageList = ["assets/img/1.jpg", 
+					"assets/img/og.jpg", 
+					"assets/img/2.jpg", 
+					"assets/img/4.jpg", 
+					"assets/img/5.jpg", 
+					"assets/img/6.jpg", 
+					"assets/img/7.jpg",
+					"assets/img/8.jpg",
+					"assets/img/9.jpg",
+					"assets/img/10.jpg",
+					];
+
 var counter = 0;
 var resetCounter = imageList.length;
 
