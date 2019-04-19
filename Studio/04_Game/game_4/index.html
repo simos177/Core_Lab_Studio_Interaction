@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Exercise</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<style type="text/css">
+		
+		html{
+			padding: 0;
+			margin: 0;
+		}
+
+		body{
+			background-color: white;
+
+		}
+
+		#button {
+			display: inline-block;
+			position: fixed;
+			top:50%;
+			left: 18vw;
+			background-color: #388AEA;
+			color: White;
+			padding: 30px 50px;
+			cursor: pointer;
+			width: 500px;
+			height: 100px;
+			font-family: "Gotham Bold", sans-serif;
+			font-style: italic;
+			font-size: 80px;
+			text-align: center;
+			border-radius: 5px;
+			cursor: pointer;
+
+}
+
+
+		.correct{
+			position: relative;
+			top: 40vh;
+			/*left: 15%;*/
+			z-index: 100;
+		}
+
+		#text{
+			font-family: "Gotham Bold", sans-serif;
+			font-style: italic;
+			font-size: 120px;
+			color: white;
+			text-align: center;
+		}
+
+
+	</style>
+
+
+
+</head>
+<body>
+
+
+<div id="button">CLICK ME</div>
+
+<div class="correct">
+	<div id="text">YOU GOT IT!</div>
+</div>
+	
+
+
+
+
+
+<script type="text/javascript" src="jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(window).ready(function(){
+
+	console.log("running1");
+
+
+	$("#button").click(function(){
+		console.log("running");
+		$("#button").fadeOut("slow");
+
+		$("body").fadeIn("slow", function(){
+			$("body").css({"background-color" : "#6CB61A"});
+		});
+	});
+
+	// 	$("body").animate({
+	// 		"background-color": "white"
+	// 		});
+	// 	}, function(){
+	// 		$("body").animate({
+	// 		'background-color': '#6CB61A'
+	// 	});
+	// });
+
+
+$("#button").animate({backgroundColor:"#6CB61A"}, 'slow');
+
+
+
+
+
+
+
+
+})
+</script>
+
+</body> 
+</html>

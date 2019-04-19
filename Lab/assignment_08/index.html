@@ -6,10 +6,65 @@
 
 	<style type="text/css">
 		*{
-			background-color: lightblue;
+			background-color: LightSlateGray;
 
 		}
-		
+
+		p{
+			font-family: helvetica;
+			font-size: 40px;
+			color: black;
+			margin-top: 20vw;
+			margin-left: 20vw;
+			/*transform: rotate(45deg);*/
+		}
+
+
+		.element2{
+			position: fixed;
+			width: 80px;
+			height: 80px;
+			background-color: yellow;
+			border-radius: 50px;
+			border-color: orange;
+			border-style: solid;
+  			border-width: 8px;
+  			margin-top: 20vw;
+			margin-left: 20vw;
+
+		}
+
+		.flower1{
+			position: fixed;
+			width: 30px;
+			height: 30px;
+			background-color: pink;
+			border-radius: 50px;
+		}
+
+		.element3{
+			position: fixed;
+			width: 80px;
+			height: 80px;
+			background-color: yellow;
+			border-radius: 50px;
+			border-color: orange;
+			border-style: solid;
+  			border-width: 8px;
+  			margin-top: 20vw;
+			margin-left: 20vw;
+
+		}
+
+		.flower2{
+			position: fixed;
+			width: 30px;
+			height: 30px;
+			background-color: pink;
+			border-radius: 50px;
+		}
+
+
 
 
 
@@ -20,15 +75,20 @@
 </head>
 <body>
 
-	<div class= "cloud" id= "cloud_div"></div>
 
+	<p>trash:(</p>
+	
+	<p>trash:(</p>
+	
+	<div class= "element2">
+		<div class= "flower1"></div>
+	</div>
 
-	<div class= "myelements mydivs" id="second_div"> hello jquery</div>
-	<h1 class= "myelements"> this is about jquery</h1>
-	<div class= "myelements mydivs" id="first_div"> hello jquery</div>
+	<div class= "element3">
+		<div class= "flower2"></div>
+	</div>
 
-
-
+	
 
 
 
@@ -37,6 +97,22 @@
 <script type="text/javascript" src="jquery.min.js"></script>
 <script type="text/javascript">
 $(window).ready(function(){
+
+	
+	$("p").click(function(){
+
+		$(this).replaceWith( $("<div class= 'element2'><div class= 'flower1'></div></div>"))
+		$(this).replaceWith( $("<div class= 'element3'><div class= 'flower2'></div></div>"))
+
+	})
+
+	// $("*").click(function(){
+
+	// 	$("*").css({"background-color" : "green"})
+	// })
+
+
+
 
 			
 

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Exercise</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<style type="text/css">
+		*{
+			background-color: LightSlateGray;
+			margin-top: 50px;
+
+		}
+
+		h1{
+			font-size: 20;
+			font-family: futura;
+
+		}
+
+		.element1{
+			width: 300px;
+			height: 300px;
+			border-radius: 250px;
+			border-style: solid;
+  			border-color:LightSlateGray;
+			background-color:LightSlateGray;
+			position: fixed;
+			top: 10%;
+			left: 45vw;
+		}
+
+		.element2{
+			width: 300px;
+			height: 300px;
+			border-radius: 250px;
+			border-style: solid;
+  			border-color:LightSlateGray;
+			background-color: LightSlateGray;
+			position: fixed;
+			top: 25%;
+			left: 44vw;
+		}
+
+		.element3{
+			width: 300px;
+			height: 300px;
+			border-radius: 250px;
+			border-style: solid;
+  			border-color: LightSlateGray;
+			background-color: LightSlateGray;
+			position: fixed;
+			top: 34%;
+			left: 40vw;
+		}
+
+		.element4{
+			width: 300px;
+			height: 300px;
+			border-radius: 250px;
+			border-style: solid;
+  			border-color: LightSlateGray;
+			background-color: LightSlateGray;
+			position: fixed;
+			top: 35%;
+			left: 30vw;
+		}
+
+		.element5{
+			width: 300px;
+			height: 300px;
+			border-radius: 250px;
+			border-style: solid;
+  			border-color: LightSlateGray;
+			background-color: LightSlateGray;
+			position: fixed;
+			top: 24%;
+			left: 25vw;
+		}
+
+		.element6{
+			width: 300px;
+			height: 300px;
+			border-radius: 250px;
+			border-style: solid;
+  			border-color: LightSlateGray;
+			background-color: LightSlateGray;
+			position: fixed;
+			top: 10%;
+			left: 25vw;
+		}
+
+		.element7{
+			width: 300px;
+			height: 300px;
+			border-radius: 250px;
+			border-style: solid;
+  			border-color: LightSlateGray;
+			background-color: LightSlateGray;
+			position: fixed;
+			top: 0%;
+			left: 34vw;
+		}
+
+		
+
+	</style>
+
+
+
+</head>
+<body>
+
+	<h1>click to add color</h1>
+
+	<div class= "element7"></div>
+
+	<div class= "element1"></div>
+
+	<div class= "element2"></div>
+
+	<div class= "element3"></div>
+
+	<div class= "element4"></div>
+
+	<div class= "element5"></div>
+
+	<div class= "element6"></div>
+
+	
+
+
+
+
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript">
+$(window).ready(function(){
+
+
+	$("element1").mouseenter(function(){
+		$("element1").css({"background-color" : "white"})
+
+	})
+
+	$("element2").mouseenter(function(){
+		$("element2").css({"background-color" : "white"})
+
+	})
+
+	$("element3").mouseenter(function(){
+		$("element3").css({"background-color" : "white"})
+
+	})
+
+	$("element4").mouseenter(function(){
+		$("element4").css({"background-color" : "white"})
+
+	})
+
+	$("element5").mouseenter(function(){
+		$("element5").css({"background-color" : "white"})
+
+	})
+
+	$("element6").mouseenter(function(){
+		$("element6").css({"background-color" : "white"})
+
+	})
+
+	$("element6").mouseenter(function(){
+		$("element6").css({"background-color" : "white"})
+
+	})
+
+	$("element1").click(function(){
+		$("element1").css({"background-color" : "transparent" , "border-color": "pink"})
+
+	})
+
+	$("element2").click(function(){
+		$("element2").css({"background-color" : "transparent" , "border-color": "pink"})
+
+	})
+
+	$("element3").click(function(){
+		$("element3").css({"background-color" : "transparent" , "border-color": "pink"})
+
+	})
+
+	$("element4").click(function(){
+		$("element4").css({"background-color" : "transparent" , "border-color": "pink"})
+
+	})
+
+	$("element5").click(function(){
+		$("element5").css({"background-color" : "transparent" , "border-color": "pink"})
+
+	})
+
+	$("element6").click(function(){
+		$("element6").css({"background-color" : "transparent" , "border-color": "pink"})
+
+	})
+
+	$("element7").click(function(){
+		$("element7").css({"background-color" : "transparent" , "border-color": "pink"})
+
+	})
+
+
+	
+	// $("p").click(function(){
+
+	// 	$(this).replaceWith( $("<div class= 'element2'><div class= 'flower1'></div></div>"))
+	// 	$(this).replaceWith( $("<div class= 'element3'><div class= 'flower2'></div></div>"))
+
+	// })
+
+	$("*").click(function(){
+
+		$("*").css({"background-color" : "MediumSeaGreen"})
+	})
+
+
+
+
+			
+
+
+
+
+
+
+			
+
+
+
+
+
+})
+</script>
+
+</body> 
+</html>
