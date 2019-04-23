@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TRACY MA</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<style type="text/css">
+		
+		html{
+			padding: 0;
+			margin: 0;
+		}
+
+		#NAME1{
+			font-family: GT America Trial;
+			font-style: bold;
+			font-size: 200px;
+			position: fixed;
+			top: 30%;
+			left: 10vw;
+
+		}
+
+		#NAME2{
+			font-family: GT America Trial;
+			font-style: bold; 
+			font-size: 200px;
+			position: fixed;
+			top: 30%;
+			left: 65vw;
+
+		}
+
+		.DATETIME{
+			background: black;
+			width: 75vw;
+			height: 26vh;
+			padding: 10px;
+			font-family: GT America Trial;
+			font-style: bold; 
+			font-size: 100px;
+			color: white;
+			position: fixed;
+			top: 18%;
+			left: 10vw;
+		}
+
+		.WHERE{
+			background: black;
+			width: 75vw;
+			height: 26vh;
+			padding: 10px;
+			font-family: GT America Trial;
+			font-style: bold; 
+			font-size: 100px;
+			text-align: right;
+			color: white;
+			position: fixed;
+			top: 49%;
+			right: 10vw;
+		}
+
+
+
+	</style>
+
+
+
+</head>
+<body>
+
+
+<div id="NAME1">TRACY</div>
+
+<div id="NAME2">MA</div>
+
+
+<div class="DATETIME">APRIL 23TH, 5PM</div>
+
+<div class="WHERE">DESIGN LAB</div>
+
+
+	
+
+
+<script type="text/javascript" src="jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(window).ready(function(){
+
+
+
+	$("#NAME1").hover(function(){
+    
+    $(".DATETIME").show();
+		},function(){
+    
+    $(".DATETIME").hide();
+
+ });
+
+    $("#NAME2").hover(function(){
+    
+    $(".WHERE").show();
+		},function(){
+    
+    $(".WHERE").hide();
+});
+
+
+
+
+})
+</script>
+
+</body> 
+</html>
