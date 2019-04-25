@@ -12,44 +12,202 @@
 		}
 
 		body{
+			padding: 0;
+			margin: 0;
 			background-color: #124FE6;
+			
 
 		}
 
-		#button {
-			display: inline-block;
+		#title1{
+			width: 100%;
+			height: 100%;
+			z-index: 125;
+			background-color: #124FE6;
 			position: fixed;
-			top:50%;
-			left: 18vw;
-			background-color: #388AEA;
-			color: White;
-			padding: 30px 50px;
-			cursor: pointer;
-			width: 500px;
-			height: 100px;
-			font-family: "Gotham Bold", sans-serif;
-			font-style: italic;
-			font-size: 80px;
-			text-align: center;
-			border-radius: 5px;
-			cursor: pointer;
-
-}
-
-
-		.correct{
-			position: relative;
-			top: 40vh;
-			/*left: 15%;*/
-			z-index: 100;
-		}
-
-		#text{
-			font-family: "Gotham Bold", sans-serif;
-			font-style: italic;
-			font-size: 120px;
+			font-family: GT America Trial;
 			color: white;
 			text-align: center;
+			margin-top: 75%;
+			
+	
+		}
+
+		.line1{
+			font-family: GT America Trial;
+			font-size: 75px;
+			font-style: italic;
+		}
+
+		.line2{
+			font-family: GT America Trial;
+			font-size: 100px;
+			font-style: bold;
+		}
+
+		.title2{
+			z-index: 150;
+			/*margin-top: -63%;*/
+			top: 5vh;
+			left: 5vw;
+			width: 82%;
+			height: 88vh;
+			position: fixed;
+			display: inline-block;
+			background-color: white;
+			font-family: GT America Trial;
+			color: black;
+			text-align: center;
+			transform: translate(100vw, 100vh);
+			transition: transform 1s;
+		}
+
+		.line3{
+			margin-top: 28vh;
+			font-family: GT America Trial;
+			font-size: 50px;
+			font-style: italic;
+			text-align: center;
+		}
+
+		.line5{
+			font-family: GT America Trial;
+			font-size: 50px;
+			font-style: italic;
+			text-align: center;
+		}
+
+		.line4{
+			font-family: GT America Trial;
+			font-size: 60px;
+			font-style: black;
+			text-align: center;
+		}
+
+		.line6{
+			font-family: GT America Trial;
+			font-size: 60px;
+			font-style: black;
+			text-align: center;
+		}
+
+		.line7{
+			font-family: GT America Trial;
+			font-size: 82px;
+			font-style: black;
+			text-align: center;
+		}
+
+
+		#begin{
+			font-family: GT America Trial;
+			color: #34EA51;
+			text-align: center;
+			font-size: 50px;
+			text-decoration: underline;
+		}
+
+
+		.title3{
+			z-index: 140;
+			top: 6vh;
+			left: 7vw;
+			width: 82%;
+			height: 89vh;
+			position: fixed;
+			display: inline-block;
+			background-color: #F3FF4E;
+			font-family: GT America Trial;
+			color: black;
+			text-align: center;
+			font-size: 100px;
+			transform: translate(100vw, 100vh);
+			transition: transform 1s;
+		}
+		
+		#button1{
+			display: inline-block;
+			margin-top: 70%;
+			margin-bottom: 10%;
+			width: 60vw;
+			padding: 10px;
+			background-color: #124FE6;
+			font-family: GT America Trial;
+			color: white;
+			text-align: center;
+			font-size: 70px;
+			box-shadow: 10px 15px white;
+
+		}
+
+		#button2{
+			display: inline-block;
+			margin-bottom: 10%;
+			width: 60vw;
+			padding: 10px;
+			background-color: #124FE6;
+			font-family: GT America Trial;
+			color: white;
+			text-align: center;
+			font-size: 70px;
+			box-shadow: 10px 15px white;
+
+		}
+
+		#button3{
+			display: inline-block;
+			
+			margin-bottom: 10%;
+			width: 60vw;
+			padding: 10px;
+			background-color: #124FE6;
+			font-family: GT America Trial;
+			color: white;
+			text-align: center;
+			font-size: 70px;
+			box-shadow: 10px 15px white;
+
+		}
+
+		.start_box{
+			position: fixed;
+			background-color: white;
+			z-index: 160;
+			width: 82vw;
+			left: 7vw;
+			top: 5%;
+			height: 90vh;
+			transform: translate(0, 100vh);
+			transition: transform 0.5s;
+		}
+
+		#exit{
+			position: fixed;
+			display: inline-block;
+			left: 71vw;
+			font-family: GT America Trial;
+			color: black;
+			text-align: right;
+			font-size: 65px;
+			font-style: bold;
+		}
+
+		.list{
+			position: fixed;
+			top: 30%;
+			
+		}
+
+		ul{
+			list-style-type: none;
+		}
+
+		li{
+			font-family: GT America Trial;
+			color: #124FE6;
+			text-align: left;
+			font-size: 70px;
+			font-style: bold;
 		}
 
 
@@ -61,10 +219,56 @@
 <body>
 
 
-<div id="button">CLICK ME</div>
+<div id="title1">
+	<div class="line1">HOW TO SPEAK</div>
+	<div class="line2">MILLENNIAL</div>
+</div>
 
+<div class="title2">
+	<div class="text">
+		<div class="line3">A COMPLETE GUIDE TO</div>
+		<div class="line4">MILLENNIAL SLANG</div>
+		<div class="line5">AKA</div>
+		<div class="line6">THE LANGAUGE OF</div>
+		<div class="line7">MILLENNIALS</div>
+		
+</div>
+<div id="begin">LET'S GO</div>
+</div>
 
+<div class="title3">
+	<div id="button1">ACRONYMS</div>
+	<div id="button2">TERMS</div>
+	<div id="button3">EMOJIS</div>
+</div>
+
+<div class="start_box" id="acronyms">
+	<div id="exit">X</div>
+
+	<ul class="list">
+		<li>ROUND 1 = easy</li>
+		<li>ROUND 2 = medium</li>
+		<li>ROUND 3 = hard</li>
+	</ul>
 	
+	<div class="start">BEGIN</div>
+</div>
+
+<div class="start_box" id="terms">
+	<div id="exit">X</div>
+	<ol class="list">
+		<li>easy</li>
+		<li>medium</li>
+		<li>hard</li>
+	</ol>
+</div>
+</div>
+
+<div class="start_box" id="emojis">
+	<div id="exit">X</div>
+</div>
+
+
 
 
 
@@ -78,26 +282,23 @@ $(window).ready(function(){
 	console.log("running1");
 
 
-	$("#button").click(function(){
-		console.log("running");
-		$("#button").fadeOut("slow");
-
-		$("body").fadeIn("slow", function(){
-			$("body").css({"background-color" : "#6CB61A"});
-		});
-	});
-
-	// 	$("body").animate({
-	// 		"background-color": "white"
-	// 		});
-	// 	}, function(){
-	// 		$("body").animate({
-	// 		'background-color': '#6CB61A'
-	// 	});
-	// });
+	setTimeout(function(){
+		$(".title2").css({"transform" : "translate(0,0)"})
+		$(".title3").css({"transform" : "translate(0,0)"})
+	}, 2000)
 
 
-$("#button").animate({backgroundColor:"#6CB61A"}, 'slow');
+	$("#begin").click(function(){
+		$(".title2").css({"transform" : "translate(-100vw,-100vh)"})
+	})
+
+	$("#button1").click(function(){
+		$("#acronyms").css({"transform" : "translate(0,0)"})
+	})
+
+	$("#exit").click(function(){
+		$(".start_box").css({"transform" : "translate(0,100vh)"})
+	})
 
 
 

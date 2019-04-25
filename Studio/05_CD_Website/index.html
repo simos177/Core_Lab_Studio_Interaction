@@ -6,47 +6,69 @@
 
 	<style type="text/css">
 		
-		html{
+		html, body{
 			padding: 0;
 			margin: 0;
-		}
-
-		#NAME1{
-			font-family: GT America Trial;
-			font-style: bold;
-			font-size: 200px;
+			font-size: 40px;
+			color: blue;
 			position: fixed;
-			top: 30%;
-			left: 10vw;
-
+			width: 100%;
 		}
 
-		#NAME2{
-			font-family: GT America Trial;
-			font-style: bold; 
-			font-size: 200px;
+
+		.NAME1{
+			z-index: 70;
+			font-family: ;
+			font-style: italic;
+			font-size: 250px;
 			position: fixed;
-			top: 30%;
-			left: 65vw;
+			display: inline-block;
+			text-align: center;
+			color: black;
+			top: 26%;
+			width: 100%;
 
 		}
+
+		@media only screen and (max-width: 1200px) {
+  		.NAME1 {font-size: 200px}
+
+  		@media only screen and (max-width: 1150px) {
+  		.NAME1 {font-size: 165px;}
+
+  		@media only screen and (max-width: 900px) {
+  		.NAME1 {font-size: 145px;}
+
+  		@media only screen and (max-width: 820px) {
+  		.NAME1 {font-size: 120px;}
+  		
+  		@media only screen and (max-width: 700px) {
+  		.NAME1 {font-size: 105px;}
+
+  		@media only screen and (max-width: 615px) {
+  		.NAME1 {font-size: 120px}
+
+  		@media only screen and (max-width: 540px) {
+  		.NAME1 {font-size: 120px;}
+
 
 		.DATETIME{
-			background: black;
-			width: 75vw;
-			height: 26vh;
+			z-index: 80;
+			/*position: relative;
+			display: inline-block;
+			background-color: pink;
+			width: 100%;
 			padding: 10px;
-			font-family: GT America Trial;
+			font-family: futura;
 			font-style: bold; 
-			font-size: 100px;
-			color: white;
-			position: fixed;
-			top: 18%;
-			left: 10vw;
+			font-size: 60px;
+			color: white;*/
+
 		}
 
 		.WHERE{
-			background: black;
+			z-index: 90;
+			/*background-color: black;
 			width: 75vw;
 			height: 26vh;
 			padding: 10px;
@@ -55,10 +77,55 @@
 			font-size: 100px;
 			text-align: right;
 			color: white;
-			position: fixed;
-			top: 49%;
-			right: 10vw;
+			position: fixed;*/
 		}
+
+		.LINK{
+			z-index: 100;
+			position: fixed;
+		}
+
+		.example1{
+ 			font-size: 3em;
+ 			color: limegreen;
+ 			position: absolute;
+ 			width: 100%;
+ 			height: 100%;
+ 			margin: 0;
+ 			line-height: 50px;
+ 			text-align: center;
+ 			/* Starting position */
+ 			-moz-transform:translateX(100%);
+ 			-webkit-transform:translateX(100%);	
+ 			transform:translateX(100%);
+			 /* Apply animation to this element */	
+ -moz-animation: example1 15s linear infinite;
+ -webkit-animation: example1 15s linear infinite;
+ animation: example1 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
+
+
 
 
 
@@ -69,15 +136,52 @@
 </head>
 <body>
 
+<div class="NAME1">TRACY MA</div>
 
-<div id="NAME1">TRACY</div>
+<!-- <div class="example1"><a href="https://tracyma.com/">https://tracyma.com/</a></div> -->
 
-<div id="NAME2">MA</div>
+<div class="LINK"><marquee 
+	direction= "right";
+	width="100%";
+	style= "padding: 15px"  "color: blue" "z-index: 100" "position: fixed";
+	behavior="scroll";
+
+    ><a href="https://tracyma.com/">https://tracyma.com/</a>
+  </div></marquee>
 
 
-<div class="DATETIME">APRIL 23TH, 5PM</div>
+<div class="DATETIME"> <marquee 
+	scrollamount="10" 
+	width="100%"
+	style= "left: 10vw"
+	
+	>DATE AND TIME : TUESDAY, APRIL 23, 2019 5:00 PM - 6:00 PM EDT</div></marquee>
 
-<div class="WHERE">DESIGN LAB</div>
+<div class="NAME1">TRACY MA</div>
+
+<div class="WHERE"><marquee 
+	direction= "down" 
+	width= "100%"
+	style= "height: 60vh"
+
+	>LOCATION : JOHNSON/KAPLAN BUILDING 66 WEST 12TH STREET A404 NEW YORK, NY 10011</div></marquee>
+
+<div class="CD"> <marquee 
+	scrollamount="15" 
+	width="100%"
+	style= "left: 10vw"
+	
+	>PARSONS COMMUNICATION DESIGN LECTURE SERIES</div></marquee>
+
+<div class="CD"> <marquee
+	behavior="alternate" 
+	scrollamount="20" 
+	width="100%"
+	style= "left: 10vw"
+	
+	>MODES OF PRACTICE SPRING 2019</div></marquee>
+
+
 
 
 	
@@ -88,23 +192,30 @@
 <script type="text/javascript">
 $(window).ready(function(){
 
-
-
-	$("#NAME1").hover(function(){
-    
-    $(".DATETIME").show();
-		},function(){
-    
+	$(".LINK").hide();
     $(".DATETIME").hide();
-
- });
-
-    $("#NAME2").hover(function(){
-    
-    $(".WHERE").show();
-		},function(){
-    
     $(".WHERE").hide();
+    $(".CD").hide();
+
+	$(".NAME1").mouseenter(function(){
+    	$(".NAME1").css("color" , "blue");
+
+ 	});
+
+	$(".NAME1").mouseleave(function(){
+    	$(".NAME1").css("color" , "black");
+
+ 	});
+
+
+    $(".NAME1").click(function(){
+    
+    $(".LINK").toggle();
+    $(".DATETIME").show();
+    $(".WHERE").show();
+    $(".CD").show();
+    $("body").css("background-color" , "Magenta");
+    
 });
 
 
