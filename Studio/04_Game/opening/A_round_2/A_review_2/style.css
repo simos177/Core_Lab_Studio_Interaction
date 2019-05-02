@@ -62,7 +62,7 @@
 			font-family: GT America Trial;
 			color: black;
 			text-align: center;
-			margin-top: 10%;
+			margin-top: 5%;
 			font-family: GT America Trial Bold;
 			font-size: 120px;
 			
@@ -86,7 +86,7 @@
 
 		.options{
 			width: 100vw;
-			height: 66vh;
+			height: 55vh;
 			overflow: scroll;
 		}
 
@@ -136,7 +136,7 @@
 			text-align: center;
 			width: 30vw;
 			right: 10vw;
-			top: 70vh;
+			top: 62vh;
 			padding: 30px;
 			font-family: GT America Mono Trial Regular Italic;
 			background-color: lime; 
@@ -151,7 +151,7 @@
 			width: 30vw;
 			right: 10vw;
 			left: 10vw;
-			top: 70vh;
+			top: 62vh;
 			padding: 30px;
 			font-family: GT America Mono Trial Regular Italic;
 			background-color: lime; 
