@@ -1,84 +1,93 @@
 var quiz = [
 
 {
-	"question" : "AF",
-	"correctanswer": "AS FUCK",
-	"answer2": "ADOPTIVE FATHER",
-	"answer3": "AUTO FOCUS",
-	"answer4": "ALWAYS FRESH",
+	"question" : "SQUAD",
+	"correctanswer": "CREW",
+	"answer2": "FLASHY",
+	"answer3": "SLEEPOVER",
+	"answer4": "A GROUP OF SQUID",
 
 },
 
 {
 
-	"question" : "BF",
-	"correctanswer": "BOYFRIEND",
-	"answer2": "BLACK FRIDAY",
-	"answer3": "BEST FRIEND",
-	"answer4": "BRAIN FREEZE",
+	"question" : "SPILL THE TEA",
+	"correctanswer": "TELL ME THE GOSSIP",
+	"answer2": "SPILLING HOT TEA",
+	"answer3": "LET'S GO",
+	"answer4": "I NEED TO PEE",
 },
 
 {
 
-	"question" : "DL",
-	"correctanswer": "DOWN LOW",
-	"answer2": "DIRECT LINK",
-	"answer3": "DEMI LOVATO",
-	"answer4": "DARK LORD",
+	"question" : "SNATCHED",
+	"correctanswer": "ON POINT",
+	"answer2": "TO TAKE",
+	"answer3": "STEEL",
+	"answer4": "TIGHT",
 },
 
 {
 
-	"question" : "FU",
-	"correctanswer": "FUCK YOU",
-	"answer2": "FLORIDA UNIVERSITY",
-	"answer3": "FREAKING UGLY",
-	"answer4": "FREAKY YOU",
+	"question" : "HELLA",
+	"correctanswer": "A LOT OF",
+	"answer2": "HELLO",
+	"answer3": "THE UNDERWORLD",
+	"answer4": "TO MUCH",
 },
 
 {
 
-	"question" : "TY",
-	"correctanswer": "THANK YOU",
-	"answer2": "TOO YOUNG",
-	"answer3": "TAX YEAR",
-	"answer4": "TEACH YOURSELF",
+	"question" : "GUCCI",
+	"correctanswer": "GOOD",
+	"answer2": "HEY",
+	"answer3": "THE FASHION BRAND",
+	"answer4": "GUCCI MANE",
 },
 
 {
 
-	"question" : "LN",
-	"correctanswer": "LAST NIGHT",
-	"answer2": "LIGHT NOVEL",
-	"answer3": "LIKE NEW!",
-	"answer4": "LOCAL NATION",
+	"question" : "DANK",
+	"correctanswer": "AWESOME",
+	"answer2": "A SOUND",
+	"answer3": "SOMETHING POSITIVE",
+	"answer4": "DUDE",
 },
 
 {
 
-	"question" : "TN",
-	"correctanswer": "TONIGHT",
-	"answer2": "TENNESSEE",
-	"answer3": "TREE NUT",
-	"answer4": "TRADE NAME",
+	"question" : "WOKE",
+	"correctanswer": "BEING AWARE OF THE TRUTH",
+	"answer2": "WAKE UP",
+	"answer3": "MORNING",
+	"answer4": "YES",
 },
 
 {
 
-	"question" : "RN",
-	"correctanswer": "RIGHT NOW",
-	"answer2": "REAL NEW",
-	"answer3": "ROMAN NUMERALS",
-	"answer4": "RANDOM NIGHT",
+	"question" : "FAKE NEWS",
+	"correctanswer": "FABRICATED NEWS STORIES",
+	"answer2": "TRUMP",
+	"answer3": "YOU STINK",
+	"answer4": "SHUTUP",
 },
 
 {
 
-	"question" : "TM",
-	"correctanswer": "TOMORROW",
-	"answer2": "TEXT MESSAGE",
-	"answer3": "TRUST ME",
-	"answer4": "TIM McGRAW",
+	"question" : "HUMBLE BRAG",
+	"correctanswer": "SELF PROMOTION",
+	"answer2": "STAYING WOKE",
+	"answer3": "DOWN TO EARTH",
+	"answer4": "NICE",
+},
+
+{
+
+	"question" : "#BLESSED",
+	"correctanswer": "LUCKY",
+	"answer2": "THANK YOU",
+	"answer3": "KEEP GOING",
+	"answer4": "AGREE",
 },
 
 ]

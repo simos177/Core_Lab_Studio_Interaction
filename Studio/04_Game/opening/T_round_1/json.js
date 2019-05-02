@@ -30,64 +30,85 @@ var quiz = [
 {
 
 	"question" : "DEAD",
-	"correctanswer": "FUCK YOU",
-	"answer2": "FLORIDA UNIVERSITY",
-	"answer3": "FREAKING UGLY",
-	"answer4": "FREAKY YOU",
+	"correctanswer": "HILARIOUS",
+	"answer2": "NOT PHYSICALLY ALIVE",
+	"answer3": "SUCKS",
+	"answer4": "DONE",
 },
 
 {
 
-	"question" : "CANCEL",
-	"correctanswer": "THANK YOU",
+	"question" : "CANCELLED",
+	"correctanswer": "GET LOST",
 	"answer2": "TOO YOUNG",
-	"answer3": "TAX YEAR",
-	"answer4": "TEACH YOURSELF",
+	"answer3": "TERRIFYING",
+	"answer4": "NO LONGER PLANNED",
 },
 
 {
 
-	"question" : "RATCHET",
-	"correctanswer": "LAST NIGHT",
-	"answer2": "LIGHT NOVEL",
-	"answer3": "LIKE NEW!",
-	"answer4": "LOCAL NATION",
+	"question" : "LOW-KEY",
+	"correctanswer": "KINDA",
+	"answer2": "HIGHKEY",
+	"answer3": "NOT IMPORTANT",
+	"answer4": "CLOSE TO THE GROUND",
 },
 
 {
 
 	"question" : "SUS",
-	"correctanswer": "TONIGHT",
-	"answer2": "TENNESSEE",
-	"answer3": "TREE NUT",
-	"answer4": "TRADE NAME",
+	"correctanswer": "SUSPICIOUS",
+	"answer2": "SUSAN",
+	"answer3": "SUSTAIN",
+	"answer4": "A FLAW",
 },
 
 {
 
 	"question" : "PREACH",
-	"correctanswer": "RIGHT NOW",
-	"answer2": "REAL NEW",
-	"answer3": "ROMAN NUMERALS",
-	"answer4": "RANDOM NIGHT",
+	"correctanswer": "AMEN TO THAT",
+	"answer2": "THATS COOL",
+	"answer3": "YES",
+	"answer4": "KEEP GOING",
 },
 
 {
 
 	"question" : "BOUNCE",
-	"correctanswer": "TOMORROW",
-	"answer2": "TEXT MESSAGE",
-	"answer3": "TRUST ME",
-	"answer4": "TIM McGRAW",
+	"correctanswer": "TO LEAVE",
+	"answer2": "TO PHYSICALLY JUMP",
+	"answer3": "SPUNK",
+	"answer4": "BOUNCY",
 },
 
 {
 
 	"question" : "OOF",
-	"correctanswer": "TOMORROW",
-	"answer2": "TEXT MESSAGE",
-	"answer3": "TRUST ME",
-	"answer4": "TIM McGRAW",
+	"correctanswer": "JEEZ",
+	"answer2": "MISSPELLING OF OAF",
+	"answer3": "GOOD",
+	"answer4": "YES",
+},
+
+{
+
+	"question" : "SLAY",
+	"correctanswer": "KILLED IT",
+	"answer2": "WISE",
+	"answer3": "GREAT",
+	"answer4": "LOVE IT",
 },
 
 ]
+
+
+
+
+
+
+
+
+
+
+
+

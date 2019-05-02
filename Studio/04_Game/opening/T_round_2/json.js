@@ -1,93 +1,105 @@
 var quiz = [
 
 {
-	"question" : "ZONKED",
-	"correctanswer": "AS FUCK",
-	"answer2": "ADOPTIVE FATHER",
-	"answer3": "AUTO FOCUS",
-	"answer4": "ALWAYS FRESH",
+	"question" : "SALTY",
+	"correctanswer": "BITTER",
+	"answer2": "THERES A LOT OF SALT",
+	"answer3": "TYPE OF FOOD",
+	"answer4": "LOVE",
 
 },
 
 {
 
 	"question" : "SWAG",
-	"correctanswer": "BOYFRIEND",
-	"answer2": "BLACK FRIDAY",
+	"correctanswer": "COOL",
+	"answer2": "DOG",
 	"answer3": "BEST FRIEND",
-	"answer4": "BRAIN FREEZE",
+	"answer4": "THANKS",
 },
 
 {
 
-	"question" : "CRACKING",
-	"correctanswer": "DOWN LOW",
-	"answer2": "DIRECT LINK",
-	"answer3": "DEMI LOVATO",
-	"answer4": "DARK LORD",
+	"question" : "MOOD",
+	"correctanswer": "RELATABLE",
+	"answer2": "BAD MOOD",
+	"answer3": "YUP",
+	"answer4": "LIFE",
 },
 
 {
 
-	"question" : "BRICKS",
-	"correctanswer": "FUCK YOU",
-	"answer2": "FLORIDA UNIVERSITY",
-	"answer3": "FREAKING UGLY",
-	"answer4": "FREAKY YOU",
+	"question" : "DOPE",
+	"correctanswer": "COOL",
+	"answer2": "YO",
+	"answer3": "VERY CLEAN",
+	"answer4": "FREAK",
 },
 
 {
 
-	"question" : "SIS",
-	"correctanswer": "THANK YOU",
-	"answer2": "TOO YOUNG",
-	"answer3": "TAX YEAR",
-	"answer4": "TEACH YOURSELF",
+	"question" : "SAVAGE",
+	"correctanswer": "BADASS",
+	"answer2": "VICIOUS PERSON",
+	"answer3": "WORRY",
+	"answer4": "TERRIBLE",
 },
 
 {
 
 	"question" : "DUECES",
-	"correctanswer": "LAST NIGHT",
-	"answer2": "LIGHT NOVEL",
-	"answer3": "LIKE NEW!",
-	"answer4": "LOCAL NATION",
+	"correctanswer": "PEACE",
+	"answer2": "POOP",
+	"answer3": "LOVE IT",
+	"answer4": "YO",
 },
 
 {
 
 	"question" : "GO OFF",
-	"correctanswer": "TONIGHT",
-	"answer2": "TENNESSEE",
-	"answer3": "TREE NUT",
-	"answer4": "TRADE NAME",
+	"correctanswer": "HYPING SOMEONE UP",
+	"answer2": "TO RAMBLE",
+	"answer3": "TO RANT",
+	"answer4": "TAKE OFF",
 },
 
 {
 
-	"question" : "DEAD ASS",
-	"correctanswer": "RIGHT NOW",
-	"answer2": "REAL NEW",
-	"answer3": "ROMAN NUMERALS",
-	"answer4": "RANDOM NIGHT",
+	"question" : "DEADASS",
+	"correctanswer": "FOR REAL",
+	"answer2": "ACTUALLY DEAD",
+	"answer3": "MEAN PERSON",
+	"answer4": "RUDE",
 },
 
 {
 
-	"question" : "TOASTED",
-	"correctanswer": "TOMORROW",
-	"answer2": "TEXT MESSAGE",
-	"answer3": "TRUST ME",
-	"answer4": "TIM McGRAW",
+	"question" : "COOKED",
+	"correctanswer": "HIGH",
+	"answer2": "A WARM PIECE OF TOAST",
+	"answer3": "DONE",
+	"answer4": "ASLEEP",
 },
 
 {
 
-	"question" : "TOASTED",
-	"correctanswer": "TOMORROW",
-	"answer2": "TEXT MESSAGE",
-	"answer3": "TRUST ME",
-	"answer4": "TIM McGRAW",
+	"question" : "YAAAS",
+	"correctanswer": "EXCITEMENT",
+	"answer2": "YUP",
+	"answer3": "WHAT DO YOU WANT",
+	"answer4": "HELLO",
 },
 
 ]
+
+
+
+
+
+
+
+
+
+
+
+

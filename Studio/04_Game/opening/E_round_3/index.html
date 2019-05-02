@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>jQuery Exercise</title>
+	<title>E ROUND 3</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src= "json.js"></script>
 	<script type="text/javascript" src= "script.js"></script>
@@ -13,6 +13,11 @@
 <!-- 
 <div class="title1">BB</div> -->
 
+<div class= "animation">
+<div class= "circle"></div>
+	<div class= "circletext">3</div>
+</div>
+
 <div class= "quizpage">
 
 <div class="dots">
@@ -23,15 +28,26 @@
 	<div id="dot5"></div>
 </div>
 
-<div class="Q">BB</div>
+<div class="Q">GOAT</div>
 
 <div class="A">
-	<div id="button1">BABY</div>
-	<div id="button2">BIG BROTHER</div>
-	<div id="button3">BYE BYE</div>
-	<div id="button4">BETTY BOP</div>
+	<div id="button1">GREASTEST OF ALL TIME</div>
+	<div id="button2">GOVERNMENT OWNED ALIEN TERRITORRY</div>
+	<div id="button3">GOD OF ALL THINGS</div>
+	<div id="button4">GO AWAY TROLL</div>
 </div>
 
+</div>
+
+<div class= "finishpage">
+<p><span style= "color : white">ROUND 3</span> COMPLETE</p>
+</div>
+
+<div class= "nextpage"> 
+	<div class= "nexttext">WOAH ARE YOU A MILLENNIAL</div>
+	<div class= "nextbuttons">
+		<div id="nextbutton1"><a href= "E_review_3/index.html">REVIEW</div>
+		<div id="nextbutton2"><a href= "../../opening/index.html">HOME</div>
 </div>
 
 
@@ -40,32 +56,77 @@
 <script type="text/javascript">
 $(window).ready(function(){
 
+$(".finishpage").hide();
+$(".nextpage").hide();
+
+setTimeout(function(){
+	$(".animation").hide()
+}, 2000)
 
 var counter = 0;
 
+var b1 = '<div id="button1"></div>';
+var b2 = '<div id="button2"></div>';
+var b3 = '<div id="button3"></div>';
+var b4 = '<div id="button4"></div>';
+
+
 $("#button1").click(function(){
-	$(".Q").text(quiz[counter]["question"]);
-	$("#button1").text(quiz[counter]["correctanswer"]);
-	$("#button2").text(quiz[counter]["answer2"]);
-	$("#button3").text(quiz[counter]["answer3"]);
-	$("#button4").text(quiz[counter]["answer4"]);
+
+	var randomnumber = Math.floor((Math.random() * quiz.length));
+
 	counter++;
-	if (counter == quiz.length){
+	if (counter == 5){
+
+		$(".quizpage").hide();
+		$(".finishpage").show();
+
 		//what do you want to happen when the quiz is done. 
+
+		setTimeout(function(){
+			console.log("working?")
+			$(".finishpage").hide();
+			$(".nextpage").css({"display" : "block", "transform" : "translate(0,0)"})
+		}, 2000)
+
 	}
+
+	if (counter == 1){
+		$("#dot2").css("background-color" , "lime")
+		// $(".A").html(b4 + b3 + b2 + b1);
+	}
+
+	if (counter == 2){
+		$("#dot3").css("background-color" , "lime")
+		// $(".A").html(b3 + b2 + b4 + b1);
+	}
+
+	if (counter == 3){
+		$("#dot4").css("background-color" , "lime")
+		// $(".A").html(b1 + b3 + b4 + b2);
+	}
+
+	if (counter == 4){
+		$("#dot5").css("background-color" , "lime")
+		// $(".A").html(b2 + b4 + b1 + b3);
+	}
+
+	$(".Q").text(quiz[randomnumber]["question"]);
+	$("#button1").text(quiz[randomnumber]["correctanswer"]);
+	$("#button2").text(quiz[randomnumber]["answer2"]);
+	$("#button3").text(quiz[randomnumber]["answer3"]);
+	$("#button4").text(quiz[randomnumber]["answer4"]);
+
+	$("#button2 , #button3 , #button4").css("background-color" , "white");
+
+
+
+
 })
 
-
-
-
-
-
-
-
-
-
-
-
+$("#button2 , #button3 , #button4").click(function(){
+	$(this).css("background-color" , "red")
+})
 
 
 
@@ -88,3 +149,5 @@ $("#button1").click(function(){
 
 </body> 
 </html>
+
+

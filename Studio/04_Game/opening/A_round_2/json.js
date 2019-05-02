@@ -99,15 +99,6 @@ var quiz = [
 	"answer4": "OBERBAUMESSAGEN",
 },
 
-{
-
-	"question" : "TFW",
-	"correctanswer": "THAT FEELING WHEN",
-	"answer2": "ONE MINUTE WONDER",
-	"answer3": "ON MY WAFFLE",
-	"answer4": "OBERBAUMESSAGEN",
-},
-
 
 ]
 

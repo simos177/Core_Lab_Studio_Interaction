@@ -48,7 +48,7 @@
 		body{
 			padding: 0;
 			margin: 0;
-			background-color: #124FE6;
+			background-color: yellow;
 			
 
 		}
@@ -57,108 +57,25 @@
 			width: 100%;
 			height: 100%;
 			z-index: 125;
-			background-color: #124FE6;
+			background-color: yellow;
 			position: fixed;
 			font-family: GT America Trial;
-			color: white;
+			color: black;
 			text-align: center;
-			margin-top: 75%;
+			margin-top: 10%;
+			font-family: GT America Trial Bold;
+			font-size: 120px;
 			
 	
 		}
 
-		.line1{
-			font-family: GT America Mono Trial Light;
-			font-size: 80px;
-			font-style: italic;
-		}
-
-		.line2{
-			font-family: GT America Trial Bold;
-			font-size: 100px;
-		}
-
-		.title2{
-			z-index: 150;
-			/*margin-top: -63%;*/
-			top: 5vh;
-			left: 8vw;
-			width: 82%;
-			height: 88vh;
-			position: fixed;
-			display: inline-block;
-			background-color: white;
-			font-family: GT America Trial;
-			color: black;
-			text-align: center;
-			transform: translate(100vw, 100vh);
-			transition: transform 1s;
-		}
-
-		.line3{
-			margin-top: 26vh;
-			font-family: GT America Mono Trial Light;
-			font-size: 60px;
-			font-style: italic;
-			text-align: center;
-		}
-
-		.line5{
-			font-family: GT America Mono Trial Light;
-			font-size: 60px;
-			font-style: italic;
-			text-align: center;
-		}
-
-		.line4{
-			font-family: GT America Trial Bold;
-			font-size: 84px;
-			font-style: black;
-			text-align: center;
-		}
-
-		.line6{
-			font-family: GT America Trial Bold;
-			font-size: 84px;
-			font-style: black;
-			text-align: center;
-		}
-
-		.line7{
-			font-family: GT America Trial Bold;
-			font-size: 84px;
-			font-style: black;
-			text-align: center;
-		}
-
-
-		#begin{
-			font-family: GT America Trial;
-			text-align: center;
-			font-size: 50px;
-			position: fixed;
-			display: inline-block;
-			left: 25vw;
-			top: 70vh;
-			padding: 30px;
-			font-family: GT America Mono Trial Regular Italic;
-			background-color: lime;
-			color: white;
-			text-align: right;
-			font-size: 65px;
-			font-style: bold;
-		}
 
 
 		.title3{
 			z-index: 140;
-			top: 6vh;
-			left: 12vw;
-			width: 82%;
-			height: 89vh;
+			top: 17vh;
 			position: fixed;
 			display: inline-block;
-			background-color: yellow;
 			font-family: GT America Trial;
 			color: black;
 			text-align: center;
@@ -166,125 +83,80 @@
 			transform: translate(100vw, 100vh);
 			transition: transform 1s;
 		}
-		
-		#button1{
-			display: inline-block;
-			margin-top: 75%;
-			margin-bottom: 10%;
-			width: 65vw;
-			padding: 15px;
-			background-color: #124FE6;
-			font-family: GT America Trial Bold;
-			color: white;
-			text-align: center;
-			font-size: 70px;
-			box-shadow: 18px 18px white;
 
+		.options{
+			width: 100vw;
+			height: 66vh;
+			overflow: scroll;
 		}
 
-		#button2{
+		#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9, #button10{
 			display: inline-block;
-			margin-bottom: 10%;
-			width: 65vw;
-			padding: 15px;
-			background-color: #124FE6;
-			font-family: GT America Trial Bold;
-			color: white;
-			text-align: center;
-			font-size: 70px;
-			box-shadow: 18px 18px white;
-
-		}
-
-		#button3{
-			display: inline-block;
-			margin-bottom: 10%;
-			width: 65vw;
-			padding: 15px;
-			background-color: #124FE6;
-			font-family: GT America Trial Bold;
-			color: white;
-			text-align: center;
-			font-size: 70px;
-			box-shadow: 18px 18px white;
-
-		}
-
-		.start_box{
-			position: fixed;
+			margin-bottom: 6%;
+			width: 80%;
+			padding: 30px;
 			background-color: white;
+			font-family: GT America Trial Bold;
+			color: black;
+			text-align: center;
+			font-size: 60px;
+			box-shadow: 18px 18px #124FE6;
+
+
+		}
+
+
+		.info_box{
+			position: fixed;
+			background-color:  #124FE6;
 			z-index: 160;
-			top: 5vh;
-			left: 8vw;
-			width: 82%;
-			height: 88vh;
+			top: 4vh;
+			left: 5vw;
+			width: 90%;
+			height: 92vh;
 			transform: translate(0, 100vh);
 			transition: transform 0.5s;
 		}
 
-		#exit1{
+		#exit1, #exit2, #exit3, #exit4, #exit5, #exit6, #exit7, #exit8, #exit9, #exit10{
 			position: fixed;
 			display: inline-block;
-			left: 70vw;
+			right: 5vw;
 			top: 2%;
 			font-family: GT America Trial Bold;
-			color: black;
-			text-align: right;
-			font-size: 65px;
-			font-style: bold;
-		}
-
-		#exit2{
-			position: fixed;
-			display: inline-block;
-			left: 70vw;
-			top: 2%;
-			font-family: GT America Trial Bold;
-			color: black;
-			text-align: right;
-			font-size: 65px;
-			font-style: bold;
-		}
-
-		#exit3{
-			position: fixed;
-			display: inline-block;
-			left: 70vw;
-			top: 2%;
-			font-family: GT America Trial Bold;
-			color: black;
-			text-align: right;
-			font-size: 65px;
-			font-style: bold;
-		}
-
-		.list1{
-			position: relative;
-			top: 20%;
-			left: 20vw;
-			font-family: GT America Trial Bold;
-			color: #124FE6;
-			text-align: left;
-			font-size: 70px;
-			font-style: bold;
-			margin-bottom: 8vh;
-			
-		}
-
-
-		.start{
-			position: fixed;
-			display: inline-block;
-			left: 25vw;
-			top: 70vh;
-			padding: 30px;
-			font-family: GT America Mono Trial Regular Italic;
-			background-color: lime;
 			color: white;
 			text-align: right;
 			font-size: 65px;
 			font-style: bold;
-			text-decoration: none;
+		}
+
+		.startbutton{
+			position: fixed;
+			display: inline-block;
+			text-align: center;
+			width: 30vw;
+			right: 10vw;
+			top: 70vh;
+			padding: 30px;
+			font-family: GT America Mono Trial Regular Italic;
+			background-color: lime; 
+			color: white;
+			font-size: 65px;	
+		}
+
+		.retrybutton{
+			position: fixed;
+			display: inline-block;
+			text-align: center;
+			width: 30vw;
+			right: 10vw;
+			left: 10vw;
+			top: 70vh;
+			padding: 30px;
+			font-family: GT America Mono Trial Regular Italic;
+			background-color: lime; 
+			color: white;
+			font-size: 65px;	
 		}
 
 		a{
@@ -293,5 +165,69 @@
 			font-family: GT America Mono Trial Regular Italic;
 			font-size: 65px;
 		}
+
+		.info_def{
+  			display: inline-block;
+  			color: yellow;
+			text-align: center;
+			font-family: GT America Mono Trial Light;
+			font-size: 35px;
+			position: fixed;
+			top: 2vh;
+			left: 15%;
+			width: 70%;
+			
+  		}
+
+  		.info_title_1{
+  			display: inline-block;
+			text-align: center;
+			font-family: GT America Trial Bold;
+			color: white;
+			font-size: 160px;
+			position: fixed;
+			top: 6vh;
+			width: 100%;
+			height: 12vh;
+
+  		}
+
+  		.info_title_2{
+  			display: inline-block;
+			text-align: center;
+			font-family: GT America Trial Bold Italic;
+			color:  #124FE6;
+			background-color: white;
+			font-size: 80px;
+			position: relative;
+			top: 18vh;
+			width: 90%;
+			left: 5%;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			margin-bottom: 8%;
+  		}
+
+  		.info_text{
+  			display: inline-block;
+			text-align: left;
+			font-family: GT America Mono Trial Light;
+			color: white;
+			font-size: 50px;
+			position: relative;
+			top: 15vh;
+			left: 5%;
+			width: 90%;
+			height: 15vh;
+  		}
+
+
+
+
+
+
+
+
+
 
 

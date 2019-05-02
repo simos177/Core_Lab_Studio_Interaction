@@ -1,7 +1,7 @@
 var quiz = [
 
 {
-	"question" : "AF",
+	"question" : "😂",
 	"correctanswer": "AS FUCK",
 	"answer2": "ADOPTIVE FATHER",
 	"answer3": "AUTO FOCUS",

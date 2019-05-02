@@ -50,7 +50,7 @@ var quiz = [
 	"question" : "LN",
 	"correctanswer": "LAST NIGHT",
 	"answer2": "LIGHT NOVEL",
-	"answer3": "LIKE NEW!",
+	"answer3": "LIKE NEW",
 	"answer4": "LOCAL NATION",
 },
 
