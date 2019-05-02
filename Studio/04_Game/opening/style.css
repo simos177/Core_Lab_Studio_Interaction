@@ -62,7 +62,7 @@
 			font-family: GT America Trial;
 			color: white;
 			text-align: center;
-			margin-top: 75%;
+			margin-top: 60%;
 			
 	
 		}
@@ -77,12 +77,11 @@
 			font-family: GT America Trial Bold;
 			font-size: 100px;
 		}
-
 		.title2{
 			z-index: 150;
 			/*margin-top: -63%;*/
-			top: 5vh;
-			left: 8vw;
+			top: 4vh;
+			left: 7vw;
 			width: 82%;
 			height: 88vh;
 			position: fixed;
@@ -96,7 +95,7 @@
 		}
 
 		.line3{
-			margin-top: 26vh;
+			margin-top: 20vh;
 			font-family: GT America Mono Trial Light;
 			font-size: 60px;
 			font-style: italic;
@@ -169,7 +168,7 @@
 		
 		#button1{
 			display: inline-block;
-			margin-top: 75%;
+			margin-top: 70%;
 			margin-bottom: 10%;
 			width: 65vw;
 			padding: 15px;

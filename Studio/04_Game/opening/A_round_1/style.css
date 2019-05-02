@@ -207,7 +207,7 @@
 			font-family: GT America Trial Bold;
 			color: white;
 			text-align: center;
-			top: 20%;
+			top: 16%;
 			left: 40%;
 			font-size: 140px;
 			font-style: bold;
@@ -233,7 +233,7 @@
 		
 		#button1{
 			display: inline-block;
-			margin-top: 10%;
+			margin-top: 0%;
 			margin-bottom: 10%;
 			width: 80%;
 			padding-top: 30px;
