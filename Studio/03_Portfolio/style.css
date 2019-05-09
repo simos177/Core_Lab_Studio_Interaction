@@ -1,0 +1,497 @@
+
+* {
+  background-color:#3A01B4;
+  margin: 0px;
+
+}
+
+a{
+	text-decoration: none;
+	background-color: none;
+}
+
+.name{
+	z-index: 400;
+	position: fixed;
+	/*display: inline-block;*/
+	background-color: yellow;
+	border-radius: 100vw;
+	padding: 20px;
+	font-family: Futura;
+	color: #3A01B4;
+	height: 150px;
+	width: 150px;
+	font-size: 50px;
+	line-height: 0.5;
+	text-align: center;
+	z-index: 300;
+	box-sizing: content-box;
+	top: 37%;
+	left: 42%;
+	transform: rotate(0deg);
+	-webkit-animation-name: circle;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+.name:hover{
+	background-color: white;
+}
+
+@-webkit-keyframes circle {
+  0%    {transform: rotate(0deg);}
+ 
+  100%	{transform: rotate(360deg);}
+}
+
+
+.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .nametext{
+	z-index: 10;
+	position: fixed;
+	height: 10vh;
+	width: 100vw;
+	top: 4vh;
+	left: 2vw;
+	font-family: Futura;
+	color: white;
+	font-size: 20px;
+	display: none;
+
+}
+
+
+.assignment1{
+	z-index: 11;
+	display: inline-block;
+	position: absolute;
+	background-color:#4649df;
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+	font-family: Futura;
+	color: #3A01B4;
+	font-size: 10px;
+	box-sizing: content-box;
+	line-height: 0.5;
+	z-index: 300;
+	top: 50%;
+	left: 50%;
+	-webkit-animation-name:  myOrbit1;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+
+}
+
+.assignment1:hover{
+	background-color: white;
+	-webkit-animation-play-state: paused;
+}
+
+  @-webkit-keyframes myOrbit1 {
+    0% { -webkit-transform: rotate(0deg) translateX(300px) rotate(0deg); }
+    100%   { -webkit-transform: rotate(360deg) translateX(300px) rotate(-360deg); }
+}
+
+
+
+
+.assignment2{
+	z-index: 12;
+	display: inline-block;
+	position: absolute;
+	background-color: red;
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+	color:  #171543;
+	font-size: 100px;
+	z-index: 300;
+	top: 50%;
+	left: 50%;
+	-webkit-animation-name:  myOrbit2;
+  	-webkit-animation-duration: 5.2s;
+  	-webkit-animation-iteration-count: infinite;
+  	-webkit-animation-timing-function: linear;
+
+}
+
+.assignment2:hover{
+	background-color: white;
+	-webkit-animation-play-state: paused;
+}
+
+  @-webkit-keyframes myOrbit2 {
+    from { -webkit-transform: rotate(0deg) translateX(320px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(320px) rotate(-360deg); }
+}
+
+
+.assignment3{
+	z-index: 13;
+	display: inline-block;
+	position: absolute;
+	background-color: Magenta;
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+	color:  #171543;
+	font-size: 100px;
+	z-index: 300;
+	top: 42%;
+	left: 45%;
+	-webkit-animation-name:  myOrbit3;
+  	-webkit-animation-duration: 5s;
+  	-webkit-animation-iteration-count: infinite;
+  	-webkit-animation-timing-function: linear;
+
+}
+
+.assignment3:hover{
+	background-color: white;
+	-webkit-animation-play-state: paused;
+}
+
+  @-webkit-keyframes myOrbit3 {
+    from { -webkit-transform: rotate(0deg) translateX(170px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(170px) rotate(-360deg); }
+}
+
+
+
+.assignment4{
+	z-index: 14;
+	display: inline-block;
+	position: absolute;
+	background-color: #46F5ED;
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+	color:  #171543;
+	font-size: 100px;
+	z-index: 300;
+	top: 40%;
+	left: 45%;
+	-webkit-animation-name:  myOrbit4;
+  	-webkit-animation-duration: 8s;
+  	-webkit-animation-iteration-count: infinite;
+  	-webkit-animation-timing-function: linear;
+
+}
+
+.assignment4:hover{
+	background-color: white;
+	-webkit-animation-play-state: paused;
+}
+
+  @-webkit-keyframes myOrbit4 {
+    from { -webkit-transform: rotate(0deg) translateX(250px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(250px) rotate(-360deg); }
+}
+
+
+.assignment5{
+	z-index: 15;
+	display: inline-block;
+	position: absolute;
+	background-color: #60F546 ;
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+	color:  #171543;
+	font-size: 100px;
+	z-index: 300;
+	top: 40%;
+	left: 45%;
+	-webkit-animation-name:  myOrbit5;
+  	-webkit-animation-duration: 7s;
+  	-webkit-animation-iteration-count: infinite;
+  	-webkit-animation-timing-function: linear;
+
+}
+
+.assignment5:hover{
+	background-color: white;
+	-webkit-animation-play-state: paused;
+}
+
+  @-webkit-keyframes myOrbit5 {
+    from { -webkit-transform: rotate(0deg) translateX(380px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(380px) rotate(-360deg); }
+}
+
+
+.assignment6{
+	z-index: 16;
+	display: inline-block;
+	position: absolute;
+	background-color:#FD74DC;
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+	color:  #171543;
+	font-size: 100px;
+	z-index: 300;
+	top: 30%;
+	left: 45%;
+	-webkit-animation-name:  myOrbit6;
+  	-webkit-animation-duration: 4s;
+  	-webkit-animation-iteration-count: infinite;
+  	-webkit-animation-timing-function: linear;
+
+}
+
+.assignment6:hover{
+	background-color: white;
+	-webkit-animation-play-state: paused;
+}
+
+  @-webkit-keyframes myOrbit6 {
+    from { -webkit-transform: rotate(0deg) translateX(400px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(400px) rotate(-360deg); }
+}
+
+.assignment7{
+	z-index: 16;
+	display: inline-block;
+	position: absolute;
+	background-color: MediumSlateBlue;
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+	color:  #171543;
+	font-size: 100px;
+	z-index: 300;
+	top: 30%;
+	left: 45%;
+	-webkit-animation-name:  myOrbit7;
+  	-webkit-animation-duration: 6s;
+  	-webkit-animation-iteration-count: infinite;
+  	-webkit-animation-timing-function: linear;
+
+}
+
+.assignment7:hover{
+	background-color: white;
+	-webkit-animation-play-state: paused;
+}
+
+  @-webkit-keyframes myOrbit7 {
+    from { -webkit-transform: rotate(0deg) translateX(320px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(320px) rotate(-360deg); }
+}
+
+
+.assignment8{
+	z-index: 16;
+	display: inline-block;
+	position: absolute;
+	background-color: #FC6909;
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+	color:  #171543;
+	font-size: 100px;
+	z-index: 300;
+	top: 30%;
+	left: 45%;
+	-webkit-animation-name:  myOrbit8;
+  	-webkit-animation-duration: 4s;
+  	-webkit-animation-iteration-count: infinite;
+  	-webkit-animation-timing-function: linear;
+
+}
+
+.assignment8:hover{
+	background-color: white;
+	-webkit-animation-play-state: paused;
+}
+
+  @-webkit-keyframes myOrbit8 {
+    from { -webkit-transform: rotate(0deg) translateX(260px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(260px) rotate(-360deg); }
+}
+
+
+.assignment9{
+	z-index: 16;
+	display: inline-block;
+	position: absolute;
+	background-color: #AB14FB;
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+	color:  #171543;
+	font-size: 100px;
+	z-index: 300;
+	top: 30%;
+	left: 45%;
+	-webkit-animation-name:  myOrbit9;
+  	-webkit-animation-duration: 4.6s;
+  	-webkit-animation-iteration-count: infinite;
+  	-webkit-animation-timing-function: linear;
+
+}
+
+.assignment9:hover{
+	background-color: white;
+	-webkit-animation-play-state: paused;
+}
+
+  @-webkit-keyframes myOrbit9 {
+    from { -webkit-transform: rotate(0deg) translateX(450px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(450px) rotate(-360deg); }
+}
+
+
+.assignment10{
+	z-index: 16;
+	display: inline-block;
+	position: absolute;
+	background-color: #AB14FB;
+	height: 120px;
+	width: 120px;
+	border-radius: 100%;
+	color:  #171543;
+	font-size: 100px;
+	z-index: 300;
+	top: 30%;
+	left: 45%;
+	-webkit-animation-name:  myOrbit10;
+  	-webkit-animation-duration: 7s;
+  	-webkit-animation-iteration-count: infinite;
+  	-webkit-animation-timing-function: linear;
+
+}
+
+.assignment10:hover{
+	background-color: white;
+	-webkit-animation-play-state: paused;
+}
+
+  @-webkit-keyframes myOrbit10 {
+    from { -webkit-transform: rotate(0deg) translateX(550px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(550px) rotate(-360deg); }
+}
+
+
+.assignment11{
+	z-index: 16;
+	display: inline-block;
+	position: absolute;
+	background-color: hotpink;
+	height: 120px;
+	width: 120px;
+	border-radius: 100%;
+	color:  #171543;
+	font-size: 100px;
+	top: 30%;
+	left: 45%;
+	-webkit-animation-name:  myOrbit11;
+  	-webkit-animation-duration: 7s;
+  	-webkit-animation-iteration-count: infinite;
+  	-webkit-animation-timing-function: linear;
+
+}
+
+.assignment11:hover{
+	background-color: white;
+	-webkit-animation-play-state: paused;
+}
+
+  @-webkit-keyframes myOrbit11 {
+    from { -webkit-transform: rotate(0deg) translateX(300px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(300px) rotate(-360deg); }
+}
+
+
+.assignment12{
+	z-index: 16;
+	display: inline-block;
+	position: absolute;
+	background-color:DeepPink;
+	height: 120px;
+	width: 120px;
+	border-radius: 100%;
+	color:  #171543;
+	font-size: 100px;
+	top: 40%;
+	left: 45%;
+	-webkit-animation-name:  myOrbit12;
+  	-webkit-animation-duration: 9s;
+  	-webkit-animation-iteration-count: infinite;
+  	-webkit-animation-timing-function: linear;
+
+}
+
+.assignment12:hover{
+	background-color: white;
+	-webkit-animation-play-state: paused;
+}
+
+  @-webkit-keyframes myOrbit12 {
+    from { -webkit-transform: rotate(0deg) translateX(200px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+.assignment13{
+	z-index: 16;
+	display: inline-block;
+	position: absolute;
+	background-color:SpringGreen;
+	height: 120px;
+	width: 120px;
+	border-radius: 100%;
+	color:  #171543;
+	font-size: 100px;
+	top: 40%;
+	left: 45%;
+	-webkit-animation-name:  myOrbit13;
+  	-webkit-animation-duration: 10s;
+  	-webkit-animation-iteration-count: infinite;
+  	-webkit-animation-timing-function: linear;
+
+}
+
+.assignment13:hover{
+	background-color: white;
+	-webkit-animation-play-state: paused;
+}
+
+  @-webkit-keyframes myOrbit13 {
+    from { -webkit-transform: rotate(0deg) translateX(500px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(500px) rotate(-360deg); }
+}
+
+
+.assignment14{
+	z-index: 16;
+	display: inline-block;
+	position: absolute;
+	background-color:Magenta;
+	height: 120px;
+	width: 120px;
+	border-radius: 100%;
+	color:  #171543;
+	font-size: 100px;
+	top: 40%;
+	left: 45%;
+	-webkit-animation-name:  myOrbit14;
+  	-webkit-animation-duration: 10s;
+  	-webkit-animation-iteration-count: infinite;
+  	-webkit-animation-timing-function: linear;
+
+}
+
+.assignment14:hover{
+	background-color: white;
+	-webkit-animation-play-state: paused;
+}
+
+  @-webkit-keyframes myOrbit14 {
+    from { -webkit-transform: rotate(0deg) translateX(500px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(500px) rotate(-360deg); }
+}
+
+

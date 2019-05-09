@@ -4,114 +4,7 @@
 	<title>jQuery Exercise</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 
-	<style type="text/css">
-		
-		html{
-			padding: 0;
-			margin: 0;
-		}
-
-
-		/*body{
-			height: 500vh;
-			background: linear-gradient(0deg, blue 0%, grey 80%, black 100%);
-			padding: 0;
-			margin: 0;
-			background-image: url('https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjn3dS8lbThAhXhY98KHfYbCTMQjRx6BAgBEAU&url=https%3A%2F%2Fgiphy.com%2Fstickers%2Ftransparent-free-background-boqxHlnQOnpeg&psig=AOvVaw13_BjyXipXi-iXduIPlSQr&ust=1554389278691452');
-    		background-size: cover;
-
-		}*/
-
-		 body {
-    		background-color: MidnightBlue;
-    		transition: 5s ease-in-out;
-    		padding: 0;
-			margin: 0;
-  		}
-  		.changeColor {
-    		background: lightskyBlue;
-  		}
-
-		.winter{
-			position: relative;
-			margin-top: 10vw;
-			margin-left: 14vw;
-			margin-bottom: 40%;
-			width: 70vw;
-
-		}
-
-		.cloud{
-			position: relative;
-			width: 70vw;
-			top: 0vh;
-			margin-left: 14vw;
-			/*margin-bottom: 40%;*/
-			z-index: 50;
-
-		} 
-
-		.sun{
-			position: relative;
-			top: -80vh;
-			left: 25%;
-			z-index: 100;
-			width: 20vw;
-
-
-		}
-
-		.field{
-			margin-top: 10vw;
-			position: relative;
-			margin-top: 10vw;
-			margin-left: 14vw;
-			margin-bottom: 30%;
-			width: 70vw;
-
-		}
-
-		.flower1{
-			position: relative;
-			top: -80vh;
-			left: 4%;
-			z-index: 100;
-			width: 20vw;
-		}
-
-		.flower2{
-			position: relative;
-			top: -152vh;
-			left: -17%;
-			z-index: 100;
-			width: 20vw;
-		}
-
-		.flower3{
-			position: relative;
-			top: -80vh;
-			left: 18%;
-			z-index: 100;
-			width: 20vw;
-		}
-
-		.flower4{
-			position: relative;
-			top: -150vh;
-			left: -5%;
-			z-index: 100;
-			width: 20vw;
-		}
-
-
-
-
-
-		
-		
-		
-
-	</style>
+	
 
 
 
@@ -148,7 +41,8 @@
 
 
 
-
+</body> 
+</html>
 
 <script type="text/javascript" src="jquery.min.js"></script>
 <script type="text/javascript">
@@ -230,13 +124,13 @@ $(document).ready(function() {
 
 });
 
-// $('.cloud').click(function(e){
-//         $('.sun').fadeIn('slow');
-// });
+$('.cloud').click(function(e){
+        $('.sun').fadeIn('slow');
+});
 
-// $('.field').click(function(e){
-//         $('.flower').fadeIn('slow');
-// });
+$('.field').click(function(e){
+        $('.flower').fadeIn('slow');
+});
 
 
 
@@ -363,8 +257,5 @@ $(document).ready(function() {
 
 
 
-
+})
 </script>
-
-</body> 
-</html>

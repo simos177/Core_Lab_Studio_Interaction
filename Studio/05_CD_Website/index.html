@@ -9,16 +9,13 @@
 		html, body{
 			padding: 0;
 			margin: 0;
-			font-size: 40px;
-			color: blue;
-			position: fixed;
-			width: 100%;
 		}
+
+
 
 
 		.NAME1{
 			z-index: 70;
-			font-family: ;
 			font-style: italic;
 			font-size: 250px;
 			position: fixed;
@@ -27,10 +24,71 @@
 			color: black;
 			top: 26%;
 			width: 100%;
+			cursor: pointer;
 
 		}
 
-		@media only screen and (max-width: 1200px) {
+		a{
+			/*text-decoration: none;*/
+			color: blue;
+
+		}
+
+		
+
+		.DATETIME{
+			z-index: 80;
+			position: relative;
+			display: inline-block;
+			width: 100%;
+			padding: 10px;
+			font-style: bold; 
+			font-size: 50px;
+
+		}
+
+		.WHERE{
+			z-index: 60;
+			width: 75vw;
+			top: 0;
+			height: 100%;
+			width: 50%; 
+			font-size: 50px;
+			text-align: right;
+			color: white;
+			position: fixed;
+			font-size: 50px;
+			/*transform: rotate(20deg);*/
+		}
+
+		.LINK{
+			z-index: 50;
+			position: fixed;
+			font-size: 50px;
+			width: 100%;
+			/*-webkit-transform: rotate(20deg);*/
+
+		}
+
+		.CD1{
+			z-index: 40;
+			top: 60%;
+			position: fixed;
+			font-size: 50px;
+			width: 100%;
+		}
+
+		.CD2{
+			z-index: 30;
+			top: 50%;
+			font-size: 50px;
+			top: 80%;
+			width: 100%;
+		}
+
+		
+
+@media only screen and (max-width: 1200px) {
   		.NAME1 {font-size: 200px}
 
   		@media only screen and (max-width: 1150px) {
@@ -52,82 +110,6 @@
   		.NAME1 {font-size: 120px;}
 
 
-		.DATETIME{
-			z-index: 80;
-			/*position: relative;
-			display: inline-block;
-			background-color: pink;
-			width: 100%;
-			padding: 10px;
-			font-family: futura;
-			font-style: bold; 
-			font-size: 60px;
-			color: white;*/
-
-		}
-
-		.WHERE{
-			z-index: 90;
-			/*background-color: black;
-			width: 75vw;
-			height: 26vh;
-			padding: 10px;
-			font-family: GT America Trial;
-			font-style: bold; 
-			font-size: 100px;
-			text-align: right;
-			color: white;
-			position: fixed;*/
-		}
-
-		.LINK{
-			z-index: 100;
-			position: fixed;
-		}
-
-		.example1{
- 			font-size: 3em;
- 			color: limegreen;
- 			position: absolute;
- 			width: 100%;
- 			height: 100%;
- 			margin: 0;
- 			line-height: 50px;
- 			text-align: center;
- 			/* Starting position */
- 			-moz-transform:translateX(100%);
- 			-webkit-transform:translateX(100%);	
- 			transform:translateX(100%);
-			 /* Apply animation to this element */	
- -moz-animation: example1 15s linear infinite;
- -webkit-animation: example1 15s linear infinite;
- animation: example1 15s linear infinite;
-}
-/* Move it (define the animation) */
-@-moz-keyframes example1 {
- 0%   { -moz-transform: translateX(100%); }
- 100% { -moz-transform: translateX(-100%); }
-}
-@-webkit-keyframes example1 {
- 0%   { -webkit-transform: translateX(100%); }
- 100% { -webkit-transform: translateX(-100%); }
-}
-@keyframes example1 {
- 0%   { 
- -moz-transform: translateX(100%); /* Firefox bug fix */
- -webkit-transform: translateX(100%); /* Firefox bug fix */
- transform: translateX(100%); 		
- }
- 100% { 
- -moz-transform: translateX(-100%); /* Firefox bug fix */
- -webkit-transform: translateX(-100%); /* Firefox bug fix */
- transform: translateX(-100%); 
- }
-}
-
-
-
-
 
 	</style>
 
@@ -141,10 +123,9 @@
 <!-- <div class="example1"><a href="https://tracyma.com/">https://tracyma.com/</a></div> -->
 
 <div class="LINK"><marquee 
-	direction= "right";
-	width="100%";
-	style= "padding: 15px"  "color: blue" "z-index: 100" "position: fixed";
-	behavior="scroll";
+	behavior="alternate" 
+	scrollamount="30" 
+	
 
     ><a href="https://tracyma.com/">https://tracyma.com/</a>
   </div></marquee>
@@ -155,30 +136,34 @@
 	width="100%"
 	style= "left: 10vw"
 	
-	>DATE AND TIME : TUESDAY, APRIL 23, 2019 5:00 PM - 6:00 PM EDT</div></marquee>
+	><a href="https://www.eventbrite.com/e/parsons-cd-lecture-series-tracy-ma-tickets-55923428480?utm_source=eb_email&utm_medium=email&utm_campaign=reminder_attendees_48hour_email&utm_term=eventname&ref=eemaileventremind#"
+	>TUESDAY, APRIL 23, 2019 5:00 PM - 6:00 PM EDT</div></marquee>
 
 <div class="NAME1">TRACY MA</div>
 
 <div class="WHERE"><marquee 
-	direction= "down" 
-	width= "100%"
-	style= "height: 60vh"
+	direction= "down"
+	scrollamount="20"  
+	height="100%"
 
-	>LOCATION : JOHNSON/KAPLAN BUILDING 66 WEST 12TH STREET A404 NEW YORK, NY 10011</div></marquee>
+	><a href="https://www.google.com/maps/place/Alvin+Johnson%2FJ.M.+Kaplan+Hall/@40.7355782,-73.9993651,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25997b1b649e3:0xd6b3951fca1d8e41!8m2!3d40.7355742!4d-73.9971764"
+	>JOHNSON/KAPLAN BUILDING 66 WEST 12TH STREET A404 NEW YORK, NY 10011</div></marquee>
 
-<div class="CD"> <marquee 
-	scrollamount="15" 
-	width="100%"
-	style= "left: 10vw"
+<div class="CD1"> <marquee 
+	scrollamount="15"
+
 	
+	
+	><a href="https://www.eventbrite.com/o/communication-design-parsons-18201745533"
 	>PARSONS COMMUNICATION DESIGN LECTURE SERIES</div></marquee>
 
-<div class="CD"> <marquee
+<div class="CD2"> <marquee
 	behavior="alternate" 
-	scrollamount="20" 
-	width="100%"
-	style= "left: 10vw"
+	scrollamount="25" 
 	
+
+	
+	><a href="https://www.newschool.edu/parsons/"
 	>MODES OF PRACTICE SPRING 2019</div></marquee>
 
 
@@ -195,7 +180,8 @@ $(window).ready(function(){
 	$(".LINK").hide();
     $(".DATETIME").hide();
     $(".WHERE").hide();
-    $(".CD").hide();
+    $(".CD1").hide();
+    $(".CD2").hide();
 
 	$(".NAME1").mouseenter(function(){
     	$(".NAME1").css("color" , "blue");
@@ -209,11 +195,13 @@ $(window).ready(function(){
 
 
     $(".NAME1").click(function(){
+    	$(".NAME1").css("transform" , "rotate(20deg)");
     
-    $(".LINK").toggle();
+    $(".LINK").show();
     $(".DATETIME").show();
     $(".WHERE").show();
-    $(".CD").show();
+    $(".CD1").show();
+    $(".CD2").show();
     $("body").css("background-color" , "Magenta");
     
 });

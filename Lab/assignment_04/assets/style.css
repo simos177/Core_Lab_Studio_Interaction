@@ -14,20 +14,21 @@ html, body {
 }
 
 .fish1 {
+  z-index: 10;
   background-image: url('fish.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
-  width: 150px;
-  height: 90px;
+  width: 130px;
+  height: 70px;
   bottom: 50%;
   position: absolute;
-  animation: swimmingone 4s 1s infinite ease-in normal;
+  animation: swimmingone 6s  infinite ease-in normal;
 }
 
 @keyframes swimmingone {
   0% {
-    bottom:50%; left:0; transform: rotate(10deg);
+    bottom:50%; left:-10%; transform: rotate(10deg);
   }
   25% { 
      bottom:50%; left:25%;  transform: rotate(20deg);
@@ -45,6 +46,7 @@ html, body {
 
 
 .fish2 {
+   z-index: 20;
   background-image: url('fish.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,7 +56,7 @@ html, body {
   bottom: 30%;
   left: 200px;
   position: absolute;
-  animation: swimmingtwo 4s 1s infinite ease-in normal;
+  animation: swimmingtwo 8s  infinite ease-in normal;
 }
 
 
@@ -78,16 +80,17 @@ html, body {
 
 
 .fish3 {
+   z-index: 20;
   background-image: url('fish.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
-  width: 150px;
-  height: 90px;
+  width: 192px;
+  height: 120px;
   bottom: 70%;
   left: 600px;
   position: absolute;
-  animation: swimmingthree 4s 2s infinite ease-in normal;
+  animation: swimmingthree 9s infinite ease-in normal;
 }
 
 
@@ -107,6 +110,41 @@ html, body {
   }
   100% {
     bottom:70%; left: 100%; transform: rotate(10deg);
+  }
+}
+
+
+.shark {
+   z-index: 20;
+  background-image: url('shark.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 600px;
+  height: 250px;
+  bottom: 70%;
+  right: 600px;
+  position: absolute;
+  animation: shark 15s infinite ease-in normal;
+}
+
+
+
+@keyframes shark {
+  0% {
+    bottom:-14%; right:0; 
+  }
+  25% { 
+     bottom:-14%; 
+  }
+  50% {
+    bottom:-14%; 
+  }
+  75% {
+     bottom:-14%; 
+  }
+  100% {
+    bottom:-14%; right: 100%;
   }
 }
 

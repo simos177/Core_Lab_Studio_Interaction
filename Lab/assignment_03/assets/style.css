@@ -1,29 +1,43 @@
 
 
-html{
+	html{
 			background-color: Magenta;
 		}
 
 		.text1, .text2, .text3{
 			color: white;
-			font-size: 30px;
-			margin-left: 25%;
-			margin-right: 25%;
+			font-family: futura;
+			
 		}
 
 		.text1{
-			font-family: futura;
+			width: 100vw;
+			height: 100vh;
 			display: block;
+			text-align: left;
+			line-height: 0.3;
+			font-size: 100px;
 		}
 
 		.text2{
-			font-family: Utopia SD;
+			font-size: 150px;
+			width: 100vw;
+			height: 100vh;
+			display: block;
+			text-align: left;
+			line-height: 0.3;
 			display: none;
 		}
 
 		.text3{
-			font-family: Avenir;
+			font-size: 200px;
+			width: 100vw;
+			height: 100vh;
+			display: block;
+			text-align: left;
+			line-height: 0.3;
 			display: none;
+		
 		}
 
 
@@ -50,15 +64,28 @@ html{
 			
 			}
 
-
-
-
-
 		}
+
+
 
 		@media(max-width: 800px){
 			html{
-				background-color: DarkViolet;
+				background-color: DodgerBlue;
+			}
+
+			.text3{
+			display: block;
+			
+			}
+
+			.text1{
+			display: none;
+			
+			}
+
+			.text2{
+			display: none;
+			
 			}
 		
 

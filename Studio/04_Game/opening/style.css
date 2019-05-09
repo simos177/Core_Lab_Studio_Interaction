@@ -271,11 +271,30 @@
 		}
 
 
-		.start{
+		.start1{
+			position: relative;
+			display: inline-block;
+			top: 35%;
+			left: 21vw;
+			width: 32vw;
+			margin-bottom: 10%;
+			padding: 30px;
+			font-family: GT America Mono Trial Regular Italic;
+			background-color: lime;
+			color: white;
+			text-align: center;
+			font-size: 65px;
+			font-style: bold;
+			text-decoration: none;
+		}
+
+		.start2{
 			position: fixed;
 			display: inline-block;
-			left: 25vw;
-			top: 70vh;
+			left: 21vw;
+			width: 32vw;
+			top: 50%;
+			margin-bottom: 10%;
 			padding: 30px;
 			font-family: GT America Mono Trial Regular Italic;
 			background-color: lime;
@@ -284,6 +303,25 @@
 			font-size: 65px;
 			font-style: bold;
 			text-decoration: none;
+			text-align: center;
+		}
+
+		.start3{
+			position: fixed;
+			display: inline-block;
+			left: 21vw;
+			width: 32vw;
+			top: 65%;
+			margin-bottom: 10%;
+			padding: 30px;
+			font-family: GT America Mono Trial Regular Italic;
+			background-color: lime;
+			color: white;
+			text-align: right;
+			font-size: 65px;
+			font-style: bold;
+			text-decoration: none;
+			text-align: center;
 		}
 
 		a{

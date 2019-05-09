@@ -1,0 +1,637 @@
+
+body {
+  margin: 0px;
+  background-image: url("img/park4.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+/*.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container .btn {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  top: 707px;
+  left: 680px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: yellow;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+ 
+}
+
+.container .btn:hover {
+  background-color: white;
+}*/
+
+/*a:link, a:visited {
+  position: fixed;
+  width: 4vw;
+  height: 4vw;
+  top: 50px;
+  left: 50px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+  color: black;
+  font-size: 1vw;
+  font-family: futura;
+  text-decoration: none;
+  text-align: center;
+  line-height: 4vw;
+  
+}
+
+a:hover, a:active {
+  background-color: black;
+}
+
+#about{
+  top: 50px;
+  left: 50px;
+  width: 4vw;
+  height: 4vw;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+  color: white;
+  font-size: 3vw;
+  font-family: futura;
+  text-decoration: none;
+  text-align: center;
+  line-height: 4vw;
+}
+
+a:hover, a:active {
+  background-color: white;
+}
+*/
+
+a:link, a:visited {
+  position: fixed;
+  width: 4vw;
+  height: 4vw;
+  top: 50px;
+  left: 50px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+  color: black;
+  font-size: 1vw;
+  font-family: futura;
+  text-decoration: none;
+  text-align: center;
+  line-height: 4vw;
+  
+}
+
+a:hover, a:active {
+  background-color: black;
+}
+
+
+
+.link{
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  top: 707px;
+  left: 680px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: yellow;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+.link:hover, .link:active {
+  background-color: white;
+}
+
+
+#dot-1{
+
+  left: 49%;
+  top: 50vw;
+
+}
+
+#dot-2{
+
+  left: 46%;
+  top: 49vw;
+
+}
+
+#dot-3{
+
+  left: 49%;
+  top: 47vw;
+
+}
+
+#dot-4{
+
+  left: 46%;
+  top: 45vw;
+
+}
+
+#dot-5{
+
+  left: 43%;
+  top: 42vw;
+
+}
+
+#dot-6{
+
+  left: 42%;
+  top: 44vw;
+
+}
+
+#dot-7{
+
+  left: 49%;
+  top: 44vw;
+
+}
+
+#dot-8{
+
+  left: 51%;
+  top: 42vw;
+
+}
+
+#dot-9{
+
+  left: 48%;
+  top: 41vw;
+
+}
+
+#dot-9{
+
+  left: 48%;
+  top: 41vw;
+
+}
+
+#dot-10{
+
+  left: 45%;
+  top: 40vw;
+}
+
+#dot-11{
+
+  left: 44%;
+  top: 36vw;
+
+}
+
+#dot-12{
+
+  left: 47%;
+  top: 37vw;
+
+}
+
+#dot-13{
+
+  left: 47%;
+  top: 35vw;
+
+}
+
+#dot-14{
+
+  left: 45%;
+  top: 34vw;
+
+}
+
+#dot-15{
+
+  left: 48%;
+  top: 33vw;
+
+}
+
+#dot-16{
+
+  left: 43%;
+  top: 33vw;
+
+}
+
+#dot-17{
+
+  left: 44%;
+  top: 30vw;
+
+}
+
+#dot-18{
+
+  left: 46%;
+  top: 29vw;
+
+}
+
+#dot-19{
+
+  left: 47%;
+  top: 31vw;
+
+}
+
+#dot-20{
+
+  left: 51%;
+  top: 29vw;
+
+}
+
+#dot-21{
+
+  left: 50%;
+  top: 31vw;
+
+}
+
+#dot-22{
+
+  left: 41%;
+  top: 30vw;
+
+}
+
+#dot-23{
+
+  left: 40%;
+  top: 38vw;
+
+}
+
+#dot-24{
+
+  left: 35%;
+  top: 39vw;
+
+}
+
+#dot-25{
+
+  left: 29%;
+  top: 38vw;
+
+}
+
+#dot-26{
+
+  left: 25%;
+  top: 37vw;
+
+}
+
+#dot-27{
+
+  left: 25%;
+  top: 37vw;
+
+}
+
+#dot-28{
+
+  left: 25%;
+  top: 33vw;
+
+}
+
+#dot-29{
+
+  left: 20%;
+  top: 32vw;
+
+}
+
+#dot-30{
+
+  left: 20%;
+  top: 25vw;
+
+}
+
+#dot-31{
+
+  left: 20%;
+  top: 20vw;
+
+}
+
+#dot-32{
+
+  left: 22%;
+  top: 15vw;
+
+}
+
+#dot-33{
+
+  left: 25%;
+  top: 19vw;
+
+}
+
+#dot-34{
+
+  left: 24%;
+  top: 10vw;
+
+}
+
+#dot-35{
+
+  left: 33%;
+  top: 15vw;
+
+}
+
+#dot-36{
+
+  left: 33%;
+  top: 22vw;
+
+}
+
+#dot-37{
+
+  left: 30%;
+  top: 12vw;
+
+}
+
+#dot-38{
+
+  left: 33%;
+  top: 25vw;
+
+}
+
+#dot-38{
+
+  left: 35%;
+  top: 27vw;
+
+}
+
+#dot-39{
+
+  left: 30%;
+  top: 26vw;
+
+}
+
+#dot-40{
+
+  left: 38%;
+  top: 27vw;
+
+}
+
+#dot-41{
+
+  left: 38%;
+  top: 24vw;
+
+}
+
+#dot-42{
+
+  left: 40%;
+  top: 23vw;
+
+}
+
+#dot-43{
+
+  left: 43%;
+  top: 22vw;
+
+}
+
+#dot-44{
+
+  left: 46%;
+  top: 20vw;
+
+}
+
+#dot-45{
+
+  left: 46%;
+  top: 24vw;
+
+}
+
+#dot-46{
+
+  left: 48%;
+  top: 22vw;
+
+}
+
+#dot-47{
+
+  left: 47%;
+  top: 15vw;
+
+}
+
+#dot-48{
+
+  left: 51%;
+  top: 25vw;
+
+}
+
+#dot-49{
+
+  left: 53%;
+  top: 27vw;
+
+}
+
+#dot-50{
+
+  left: 56%;
+  top: 26vw;
+
+}
+
+#dot-51{
+
+  left: 62%;
+  top: 26vw;
+
+}
+
+#dot-52{
+
+  left: 59%;
+  top: 24vw;
+
+}
+
+#dot-53{
+
+  left: 64%;
+  top: 24vw;
+
+}
+
+#dot-54{
+
+  left: 67%;
+  top: 25vw;
+
+}
+
+#dot-54{
+
+  left: 69%;
+  top: 22vw;
+
+}
+
+#dot-55{
+
+  left: 72%;
+  top: 20vw;
+
+}
+
+#dot-56{
+
+  left: 75%;
+  top: 18vw;
+
+}
+
+#dot-57{
+
+  left: 77%;
+  top: 16vw;
+
+}
+
+#dot-58{
+
+  left: 79%;
+  top: 13vw;
+
+}
+
+#dot-59{
+
+  left: 69%;
+  top: 25vw;
+
+}
+
+#dot-60{
+
+  left: 67%;
+  top: 28vw;
+
+}
+
+#about{
+  top: 50px;
+  left: 96vw;
+  width: 4vw;
+  height: 4vw;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+  color: black;
+  font-size: 3vw;
+  font-family: futura;
+  text-decoration: none;
+  text-align: center;
+  line-height: 4vw;
+}
+
+.exit{
+  position: fixed;
+  width: 4vw;
+  height: 4vw;
+  top: 50px;
+  left: 50px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+  color: black;
+  font-size: 1vw;
+  font-family: futura;
+  text-decoration: none;
+  text-align: center;
+  line-height: 4vw;
+}
+
+.exit:hover, .exit:active {
+  background-color: black;
+}
+
+
+img {
+    height: auto;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

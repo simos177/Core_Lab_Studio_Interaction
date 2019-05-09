@@ -1,70 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>jQuery Exercise</title>
+	<title>Spring 1</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<style type="text/css">
-		*{
-			background-color: LightSlateGray;
+		
+		body{
+			background-color: RoyalBlue;
 
 		}
 
-		p{
-			font-family: helvetica;
+
+		.text1{
+			z-index: 1;
+			position: fixed;
+			height: 10vh;
+			width: 100vw;
+			top: 4vh;
+			left: 2vw;
+			font-family: Futura;
+			color: white;
 			font-size: 40px;
-			color: black;
-			margin-top: 20vw;
-			margin-left: 20vw;
-			/*transform: rotate(45deg);*/
+
 		}
 
-
-		.element2{
+		.text2{
+			z-index: 2;
 			position: fixed;
-			width: 80px;
-			height: 80px;
-			background-color: yellow;
-			border-radius: 50px;
-			border-color: orange;
-			border-style: solid;
-  			border-width: 8px;
-  			margin-top: 20vw;
-			margin-left: 20vw;
+			height: 10vh;
+			width: 100vw;
+			top: 4vh;
+			left: 58vw;
+			font-family: Futura;
+			color: white;
+			font-size: 40px;
 
 		}
 
-		.flower1{
+		.snow1, .flower1{
+			z-index: 10;
 			position: fixed;
-			width: 30px;
-			height: 30px;
-			background-color: pink;
-			border-radius: 50px;
+			width:15vw;
+			top: 15%;
+			left: 5%;
 		}
 
-		.element3{
+		.snow2, .flower2{
+			z-index: 10;
 			position: fixed;
-			width: 80px;
-			height: 80px;
-			background-color: yellow;
-			border-radius: 50px;
-			border-color: orange;
-			border-style: solid;
-  			border-width: 8px;
-  			margin-top: 20vw;
-			margin-left: 20vw;
-
+			width:15vw;
+			top: 50%;
+			left: 30%;
 		}
 
-		.flower2{
+		.snow3, .flower3{
+			z-index: 10;
 			position: fixed;
-			width: 30px;
-			height: 30px;
-			background-color: pink;
-			border-radius: 50px;
+			width:15vw;
+			top: 25%;
+			left: 50%;
 		}
 
-
+		.snow4, .flower4{
+			z-index: 10;
+			position: fixed;
+			width:15vw;
+			top: 55%;
+			left: 75%;
+		}
 
 
 
@@ -75,18 +79,20 @@
 </head>
 <body>
 
+	<div class= "text1">winter is cold</div>
 
-	<p>trash:(</p>
-	
-	<p>trash:(</p>
-	
-	<div class= "element2">
-		<div class= "flower1"></div>
-	</div>
+	<div class= "text2">click around to make it warm</div>
 
-	<div class= "element3">
-		<div class= "flower2"></div>
-	</div>
+	<img src="snow.png" class= "snow1">
+	<img src="snow.png" class= "snow2">
+	<img src="snow.png" class= "snow3">
+	<img src="snow.png" class= "snow4">
+
+
+	<img src="flower.png" class= "flower1">
+	<img src="flower.png" class= "flower2">
+	<img src="flower.png" class= "flower3">
+	<img src="flower.png" class= "flower4">
 
 	
 
@@ -98,18 +104,38 @@
 <script type="text/javascript">
 $(window).ready(function(){
 
-	
-	$("p").click(function(){
+	$(".flower1").hide()
+	$(".flower2").hide()
+	$(".flower3").hide()
+	$(".flower4").hide()
 
-		$(this).replaceWith( $("<div class= 'element2'><div class= 'flower1'></div></div>"))
-		$(this).replaceWith( $("<div class= 'element3'><div class= 'flower2'></div></div>"))
 
+	$(".snow1").click(function(){
+		$(".snow1").hide()
+		$(".flower1").show()
 	})
 
-	// $("*").click(function(){
 
-	// 	$("*").css({"background-color" : "green"})
-	// })
+	$(".snow2").click(function(){
+		$(".snow2").hide()
+		$(".flower2").show()
+	})
+
+	$(".snow3").click(function(){
+		$(".snow3").hide()
+		$(".flower3").show()
+	})
+
+	$(".snow4").click(function(){
+		$(".snow4").hide()
+		$(".flower4").show()
+	})
+
+	$("body").click(function(){
+		$("body").css("background-color" , "LimeGreen")
+		
+	})
+
 
 
 
@@ -130,7 +156,7 @@ $(window).ready(function(){
 
 
 
-})
+});
 </script>
 
 </body> 
