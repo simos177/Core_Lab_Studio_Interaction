@@ -17,7 +17,7 @@ a{
 	background-color: yellow;
 	border-radius: 100vw;
 	padding: 20px;
-	font-family: Futura;
+	font-family: 'Roboto', sans-serif;;
 	color: #3A01B4;
 	height: 150px;
 	width: 150px;
@@ -53,7 +53,7 @@ a{
 	width: 100vw;
 	top: 4vh;
 	left: 2vw;
-	font-family: Futura;
+	font-family: 'Roboto', sans-serif;
 	color: white;
 	font-size: 20px;
 	display: none;
@@ -69,7 +69,7 @@ a{
 	height: 80px;
 	width: 80px;
 	border-radius: 100%;
-	font-family: Futura;
+	font-family: 'Roboto', sans-serif;
 	color: #3A01B4;
 	font-size: 10px;
 	box-sizing: content-box;
